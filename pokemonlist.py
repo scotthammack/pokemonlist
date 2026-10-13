@@ -59,7 +59,7 @@ def get_evolution_info(species_name):
 			txt = txt + ": Evolves from " + get_name_in_language(species.evolves_from_species, desired_language)
 			if details[0].trigger.name == 'level-up':
 				if details[0].min_level:
-					txt = txt + " at level " + str(details[0].min_level)
+					txt = txt + " starting at level " + str(details[0].min_level)
 				else:
 					txt = txt + " when leveled up"
 			elif details[0].trigger.name == 'in-battle-level-up':
@@ -76,11 +76,24 @@ def get_evolution_info(species_name):
 				txt = txt + " after defeating 3 " + get_name_in_language(pb.APIResource('pokemon-species', 'bisharp'), desired_language) + " that hold a " + get_name_in_language(pb.APIResource('item', 'leaders-crest'), desired_language)
 			elif details[0].trigger.name == 'gimmighoul-coins':
 				txt = txt + "when leveled up while having at least 999 " + get_name_in_language(pb.APIResource('pokemon-species', 'gimmighoul'), desired_language) + " Coins"
+			elif details[0].trigger.name == 'shed':
+				txt = txt + " starting at level 20 with an empty slot in the party"
+				txt = txt + " and at least 1 " + get_name_in_language(pb.APIResource('item', 'poke-ball'), desired_language) + " in the bag"
+			elif details[0].trigger.name == 'spin':
+				txt = txt + " by spinning around while holding a Sweet"
+			elif details[0].trigger.name == 'three-critical-hits':
+				txt = txt + " after landing 3 critical hits in a single battle"
+			elif details[0].trigger.name == 'take-damage':
+				# The amount of damage is covered later on when we check min_damage_taken,
+				# so don't add any text here, unless it's Runerigus, in which case talk about
+				# the arch
+				if species.name == 'runerigus':
+					txt = txt + " while standing under an arch"
 			else:
 				txt = txt + " by doing something weird"
 			if details[0].location:
 				txt = txt + " at " + get_name_in_language(details[0].location, desired_language)
-			if details[0].held_item:
+			if details[0].held_item and details[0].trigger.name != 'spin':
 				txt = txt + " while holding " + get_name_in_language(details[0].held_item, desired_language)
 			if details[0].relative_physical_stats == 1:
 				txt = txt + " with Attack greater than Defense"
@@ -103,14 +116,14 @@ def get_evolution_info(species_name):
 			if details[0].min_steps:
 				txt = txt + " after " + str(details[0].min_steps) + " steps"
 			if details[0].min_damage_taken:
-				txt = txt + " after taking " + str(details[0].min_damage_taken) + " damage"
+				txt = txt + " after taking " + str(details[0].min_damage_taken) + " damage without fainting"
 			if details[0].turn_upside_down:
 				txt = txt + " while holding the device upside down"
 			if details[0].near_special_rock:
 				txt = txt + " near a special rock"
 			if details[0].needs_overworld_rain:
 				txt = txt + " in rain"
-			if details[0].time_of_day and details[0].time_of_day != "":
+			if details[0].time_of_day and details[0].time_of_day != "" and details[0].trigger.name != 'spin':
 				txt = txt + " during " + details[0].time_of_day
 			if details[0].gender == 1:
 				txt = txt + " (female only)"

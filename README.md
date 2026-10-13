@@ -57,8 +57,15 @@ command line parameters too. I dunno. For now, they're not, so just edit the scr
 
 Known issues
 ------------
-* A few of the more arcane evolution triggers (Shedinja, Alcremie, Sirfetch'd, etc.) are not currently handled and
+* A few of the more arcane evolution triggers (Alcremie, Sirfetch'd, etc.) are not currently handled and
   will just display as "by doing something weird."
+* The evolution data for Shedinja currently always says you need an extra Poke Ball in the bag, but this is not
+  necessary in generation 3. If you just asked for the Hoenn Pokedex, there's no way of knowing whether it's
+  gen 3 or 6, so I don't know how to fix this at the moment without requiring the user to specify a game.
+* The evolution data for Alcremie does not go into detail on the different types of Sweets that may be held, or
+  the different directions or time you can spin. I don't plan on adding this; knowing that you get an Alcremie is
+  enough as far as I'm concerned. Also, the name of "Sweets" is not localized into the desired language, due to
+  there not being a category in PokeAPI specifically for Sweets as far as I can tell.
 * Pokemon that evolve into different Pokemon depending on region may not be handled as you'd expect.
 * Pokemon that have different evolution triggers in different games (such as the trade evolutions that use items
   instead in Legends: Arceus) may not be handled as you'd expect.
