@@ -57,7 +57,7 @@ command line parameters too. I dunno. For now, they're not, so just edit the scr
 
 Known issues
 ------------
-* A few of the more arcane evolution triggers (Alcremie, Sirfetch'd, etc.) are not currently handled and
+* A few of the more arcane evolution triggers (Wyrdeer, Overqwil, Melmetal, etc.) are not currently handled and
   will just display as "by doing something weird."
 * The evolution data for Shedinja currently always says you need an extra Poke Ball in the bag, but this is not
   necessary in generation 3. If you just asked for the Hoenn Pokedex, there's no way of knowing whether it's
