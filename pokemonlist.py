@@ -39,6 +39,7 @@ def find_species(chain, pokemon_name):
 
 def get_evolution_info(species_name):
 	chain = pb.APIResource('pokemon-species', species_name).evolution_chain.chain
+	details = None
 	txt = ""
 	if chain:
 		if chain.species.name != species.name:
