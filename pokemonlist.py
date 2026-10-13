@@ -1,5 +1,4 @@
 import pokebase as pb
-import re
 import sys
 
 desired_dex = 'kanto'
@@ -10,6 +9,16 @@ include_evolution_info = True
 if len(sys.argv) > 1:
 	desired_dex = sys.argv[1]
 dex = pb.APIResource('pokedex', desired_dex)
+
+try:
+	dex.id
+except:
+	print("Dex not found. Available dexes:")
+	dex_list = pb.APIResourceList('pokedex')
+	for result in dex_list:
+		print("\t" + result["name"])
+	quit()
+
 padding_digits = 3
 if len(dex.pokemon_entries) > 999:
 	padding_digits = 4
