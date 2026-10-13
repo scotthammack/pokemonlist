@@ -5,6 +5,7 @@ import sys
 desired_dex = 'kanto'
 desired_language = 'en'
 include_number = True
+include_evolution_info = True
 
 if len(sys.argv) > 1:
 	desired_dex = sys.argv[1]
@@ -27,12 +28,9 @@ def find_species(chain, pokemon_name):
 			return find_species(link, pokemon_name)
 	return
 
-for entry in dex.pokemon_entries:
-	species = entry.pokemon_species
-	txt = get_name_in_language(species, desired_language)
-	if include_number:
-		txt = "{}: {}".format(str(entry.entry_number).zfill(padding_digits), txt)
-	chain = pb.APIResource('pokemon-species', species.name).evolution_chain.chain
+def get_evolution_info(species_name):
+	chain = pb.APIResource('pokemon-species', species_name).evolution_chain.chain
+	txt = ""
 	if chain:
 		if chain.species.name != species.name:
 			chain = find_species(chain, species.name)
@@ -101,4 +99,13 @@ for entry in dex.pokemon_entries:
 				txt = txt + " (male only)"
 			elif details[0].gender == 3:
 				txt = txt + " (genderless only)"
+	return txt
+
+for entry in dex.pokemon_entries:
+	species = entry.pokemon_species
+	txt = get_name_in_language(species, desired_language)
+	if include_number:
+		txt = "{}: {}".format(str(entry.entry_number).zfill(padding_digits), txt)
+	if include_evolution_info:
+		txt = txt + get_evolution_info(species.name)
 	print(txt)
