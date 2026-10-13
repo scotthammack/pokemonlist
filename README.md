@@ -59,10 +59,8 @@ Known issues
 ------------
 * A few of the more arcane evolution triggers (Shedinja, Alcremie, Sirfetch'd, etc.) are not currently handled and
   will just display as "by doing something weird."
-* Pokemon that had pre-evolutions added retroactively (Pikachu, Hitmonchan, etc.) are listed as evolving from that
-  pre-evolution even if the pre-evolution doesn't exist in that game/dex. I need to think about what's the
-  correct way this should work.
 * Pokemon that evolve into different Pokemon depending on region may not be handled as you'd expect.
 * Pokemon that have different evolution triggers in different games (such as the trade evolutions that use items
   instead in Legends: Arceus) may not be handled as you'd expect.
+* Pokemon that evolve in a specific location may show a location from a different game than expected.
 * The script runs slower than it seems like it should.

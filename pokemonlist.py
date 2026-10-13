@@ -40,6 +40,12 @@ def find_species(chain, pokemon_name):
 			return find_species(link, pokemon_name)
 	return
 
+def pokemon_exists_in_dex(species_name):
+	for entry in dex.pokemon_entries:
+		if entry.pokemon_species.name == species_name:
+			return True
+	return False
+
 def get_evolution_info(species_name):
 	chain = pb.APIResource('pokemon-species', species_name).evolution_chain.chain
 	details = None
@@ -49,7 +55,7 @@ def get_evolution_info(species_name):
 			chain = find_species(chain, species.name)
 		if chain:
 			details = chain.evolution_details
-		if details:
+		if details and pokemon_exists_in_dex(species.evolves_from_species.name):
 			txt = txt + ": Evolves from " + get_name_in_language(species.evolves_from_species, desired_language)
 			if details[0].trigger.name == 'level-up':
 				if details[0].min_level:
