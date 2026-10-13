@@ -91,7 +91,8 @@ def get_evolution_info(species_name):
 				txt = txt + "when leveled up while having at least 999 " + get_name(pb.APIResource('pokemon-species', 'gimmighoul'), desired_language) + " Coins"
 			elif details[0].trigger.name == 'shed':
 				txt = txt + " starting at level 20 with an empty slot in the party"
-				txt = txt + " and at least 1 " + get_name(pb.APIResource('item', 'poke-ball'), desired_language) + " in the bag"
+				if dex.name != 'hoenn':
+					txt = txt + " and at least 1 " + get_name(pb.APIResource('item', 'poke-ball'), desired_language) + " in the bag"
 			elif details[0].trigger.name == 'spin':
 				txt = txt + " by spinning around while holding a Sweet"
 			elif details[0].trigger.name == 'three-critical-hits':

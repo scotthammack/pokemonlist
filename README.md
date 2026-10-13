@@ -64,9 +64,6 @@ Known issues
   letting the user specify a game, but that opens up the possibility of nonsensical combinations of dex and game,
   so I'd have to figure out how to deal with that, too.
 * Pokemon that evolve in a specific location may show a location from a different game than expected.
-* The evolution data for Shedinja currently always says you need an extra Poke Ball in the bag, but this is not
-  necessary in generation 3. If you just asked for the Hoenn Pokedex, there's no way of knowing whether it's
-  gen 3 or 6, so I don't know how to fix this at the moment without requiring the user to specify a game.
 * The evolution data for Alcremie does not go into detail on the different types of Sweets that may be held, or
   the different directions or time you can spin. I don't plan on adding this; knowing that you get an Alcremie is
   enough as far as I'm concerned. Also, the name of "Sweets" is not localized into the desired language, due to
