@@ -26,6 +26,9 @@ if pad_number:
 	if len(dex.pokemon_entries) > 999:
 		padding_digits = 4
 
+# There's gotta be a better way of doing this but I can't think of it right now.
+ignore_forms_list = ['burmy', 'shellos', 'deerling', 'flabebe', 'floette', 'pumpkaboo']
+
 def get_name(thing, language):
 	for localized_name in thing.names:
 		if localized_name.language.name == desired_language:
@@ -63,7 +66,7 @@ def get_evolution_info(species_name):
 			details = chain.evolution_details
 		if details and pokemon_exists_in_dex(species.evolves_from_species.name):
 			txt = txt + ": Evolves from " + get_name(species.evolves_from_species, desired_language)
-			if details[0].required_pokemon_form:
+			if details[0].required_pokemon_form and not species.evolves_from_species.name in ignore_forms_list:
 				form_name = get_form_name(details[0].required_pokemon_form, desired_language)
 				if form_name != "":
 					txt = txt + " (" + form_name + ")"
@@ -144,7 +147,7 @@ def get_evolution_info(species_name):
 			if details[0].needs_overworld_rain:
 				txt = txt + " in rain"
 			if details[0].time_of_day and details[0].time_of_day != "" and details[0].trigger.name != 'spin':
-				txt = txt + " during " + details[0].time_of_day
+				txt = txt + " during " + details[0].time_of_day.replace('-', ' ')
 			if details[0].gender == 1:
 				# Basculegion and Meowstic have different forms depending on gender, but we
 				# don't care about that. Should probably come up with a better check for this
