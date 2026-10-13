@@ -57,6 +57,13 @@ command line parameters too. I dunno. For now, they're not, so just edit the scr
 
 Known issues
 ------------
+* Pokemon that evolve into different Pokemon depending on region may not be handled as you'd expect.
+* Pokemon that have different evolution triggers in different games (such as the trade evolutions that use items
+  instead in Legends: Arceus) may not be handled as you'd expect. I need to decide how to handle this... we
+  could guess the game based on the desired Pokedex, but what if it's the national dex? I'm also considering
+  letting the user specify a game, but that opens up the possibility of nonsensical combinations of dex and game,
+  so I'd have to figure out how to deal with that, too.
+* Pokemon that evolve in a specific location may show a location from a different game than expected.
 * The evolution data for Shedinja currently always says you need an extra Poke Ball in the bag, but this is not
   necessary in generation 3. If you just asked for the Hoenn Pokedex, there's no way of knowing whether it's
   gen 3 or 6, so I don't know how to fix this at the moment without requiring the user to specify a game.
@@ -64,12 +71,9 @@ Known issues
   the different directions or time you can spin. I don't plan on adding this; knowing that you get an Alcremie is
   enough as far as I'm concerned. Also, the name of "Sweets" is not localized into the desired language, due to
   there not being a category in PokeAPI specifically for Sweets as far as I can tell.
-* Pokemon that have multiple forms may show up as requiring a specific form to evolve, when in fact that form
-  is only required for one particular form of the evolution (example: Gastrodon). I need to decide
-  how to handle this. I generally want to ignore forms unless the Pokemon cannot evolve without being a specific
-  form.
-* Pokemon that evolve into different Pokemon depending on region may not be handled as you'd expect.
-* Pokemon that have different evolution triggers in different games (such as the trade evolutions that use items
-  instead in Legends: Arceus) may not be handled as you'd expect.
-* Pokemon that evolve in a specific location may show a location from a different game than expected.
+* Pokemon that have multiple forms were showing up as requiring a specific form to evolve, when in fact that form
+  is only required for one particular form of the evolution (example: either form of Shellos will evolve into
+  a Gastrodon of some sort, so I don't care about the forms of either). To fix this, I just made a list of
+  Pokemon whose forms I don't care about, and don't show the forms if they're in that list. This is a crappy
+  solution and I'm sure there's a better way of handling it, but I haven't thought of it yet. 
 * The script runs slower than it seems like it should.
