@@ -57,8 +57,6 @@ command line parameters too. I dunno. For now, they're not, so just edit the scr
 
 Known issues
 ------------
-* A few of the more arcane evolution triggers (Wyrdeer, Overqwil, Melmetal, etc.) are not currently handled and
-  will just display as "by doing something weird."
 * The evolution data for Shedinja currently always says you need an extra Poke Ball in the bag, but this is not
   necessary in generation 3. If you just asked for the Hoenn Pokedex, there's no way of knowing whether it's
   gen 3 or 6, so I don't know how to fix this at the moment without requiring the user to specify a game.
@@ -66,6 +64,15 @@ Known issues
   the different directions or time you can spin. I don't plan on adding this; knowing that you get an Alcremie is
   enough as far as I'm concerned. Also, the name of "Sweets" is not localized into the desired language, due to
   there not being a category in PokeAPI specifically for Sweets as far as I can tell.
+* Pokemon that have multiple forms may show up as requiring a specific form to evolve, when in fact that form
+  is only required for one particular form of the evolution (examples: Gastrodon, Vivillon). I need to decide
+  how to handle this. I generally want to ignore forms unless the Pokemon cannot evolve without being a specific
+  form.
+* Scatterbug/Spewpa form names are not localized/formatted nicely. I assume this is because they're normally
+  never displayed anywhere since you don't know what form they are until they evolve into Vivillon. Ideally,
+  these just shouldn't be displayed anyway since they don't matter for evolution purposes.
+* Pokemon forms are displayed like "Burmy (Plant Burmy)" when it should probably just be "Plant Burmy". I'll clean
+  this up after I fix the other issues with forms.
 * Pokemon that evolve into different Pokemon depending on region may not be handled as you'd expect.
 * Pokemon that have different evolution triggers in different games (such as the trade evolutions that use items
   instead in Legends: Arceus) may not be handled as you'd expect.
