@@ -88,7 +88,7 @@ def get_evolution_info(species_name):
 			elif details[0].trigger.name == 'three-defeated-bisharp':
 				txt = txt + " after defeating 3 " + get_name(pb.APIResource('pokemon-species', 'bisharp'), desired_language) + " that hold a " + get_name(pb.APIResource('item', 'leaders-crest'), desired_language)
 			elif details[0].trigger.name == 'gimmighoul-coins':
-				txt = txt + "when leveled up while having at least 999 " + get_name(pb.APIResource('pokemon-species', 'gimmighoul'), desired_language) + " Coins"
+				txt = txt + "when leveled up while having at least 999 " + get_name(pb.APIResource('item', 'gimmighoul-coin'), desired_language) + "s"
 			elif details[0].trigger.name == 'shed':
 				txt = txt + " starting at level 20 with an empty slot in the party"
 				if dex.name != 'hoenn':
