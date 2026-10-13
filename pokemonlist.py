@@ -4,6 +4,7 @@ import sys
 desired_dex = 'kanto'
 desired_language = 'en'
 include_number = True
+pad_number = True
 include_evolution_info = True
 
 if len(sys.argv) > 1:
@@ -19,9 +20,11 @@ except:
 		print("\t" + result["name"])
 	quit()
 
-padding_digits = 3
-if len(dex.pokemon_entries) > 999:
-	padding_digits = 4
+padding_digits = 1
+if pad_number:
+	padding_digits = 3
+	if len(dex.pokemon_entries) > 999:
+		padding_digits = 4
 
 def get_name_in_language(thing, language):
 	for localized_name in thing.names:

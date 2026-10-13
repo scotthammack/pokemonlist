@@ -38,21 +38,22 @@ Usage
 Replace original-unova with the Pokedex of your choice, or omit it to default to Kanto. Output goes to stdout.
 If you specify a dex that PokeAPI doesn't recognize, it will give you a list of all the available dexes.
 
-There are a couple of options you can define at the top of the script, such as desired_language, include_number,
-and include_evolution_info. Maybe I should make these accessible as command line parameters too. I dunno. For
-now, they're not, so just edit the script if you want.
+There are a couple of options you can define at the top of the script. Maybe I should make these accessible as
+command line parameters too. I dunno. For now, they're not, so just edit the script if you want.
 
 * **desired_language** --
 	The two-letter code for the language to use for the names of Pokemon, items, and moves.
-	(I don't know how to localize the text used within the script. Again, sorry.)
+	(I don't know how to localize the text used within the script. Again, sorry.) Default: 'en'
 * **include_number** -- 
-	Boolean for whether or not to print the Pokedex number of each Pokemon. If true, the number will be
-	padded with leading zeroes (3 digits if the requested dex has less than 1000 entries, 4 digits
-	otherwise).
+	Boolean for whether or not to print the Pokedex number of each Pokemon. Default: True.
+* **pad_number** --
+	If true, the Pokedex number will be padded with leading zeroes, up to 3 digits (unless the requested
+	Pokedex includes 1000 entries or more, in which case it will be 4 digits). If include_number is False,
+	this does nothing. Default: True.
 * **include_evolution_info** --
 	Boolean for whether or not to print the evolution details for each Pokemon. If true, you'll get something
 	like "Evolves from Bulbasaur at level 16". If false, you just get the names of the Pokemon (and their
-	numbers if include_number is true).
+	numbers if include_number is true). Default: True.
 
 Known issues
 ------------
