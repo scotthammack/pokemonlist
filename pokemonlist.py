@@ -36,7 +36,7 @@ def get_form_name(form, language):
 	for localized_name in form.names:
 		if localized_name.language.name == desired_language:
 			return localized_name.name
-	return form.form_name
+	return ""
 
 def find_species(chain, pokemon_name):
 	for link in chain.evolves_to:

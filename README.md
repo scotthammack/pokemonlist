@@ -65,12 +65,9 @@ Known issues
   enough as far as I'm concerned. Also, the name of "Sweets" is not localized into the desired language, due to
   there not being a category in PokeAPI specifically for Sweets as far as I can tell.
 * Pokemon that have multiple forms may show up as requiring a specific form to evolve, when in fact that form
-  is only required for one particular form of the evolution (examples: Gastrodon, Vivillon). I need to decide
+  is only required for one particular form of the evolution (example: Gastrodon). I need to decide
   how to handle this. I generally want to ignore forms unless the Pokemon cannot evolve without being a specific
   form.
-* Scatterbug/Spewpa form names are not localized/formatted nicely. I assume this is because they're normally
-  never displayed anywhere since you don't know what form they are until they evolve into Vivillon. Ideally,
-  these just shouldn't be displayed anyway since they don't matter for evolution purposes.
 * Pokemon forms are displayed like "Burmy (Plant Burmy)" when it should probably just be "Plant Burmy". I'll clean
   this up after I fix the other issues with forms.
 * Pokemon that evolve into different Pokemon depending on region may not be handled as you'd expect.
