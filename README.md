@@ -68,8 +68,6 @@ Known issues
   is only required for one particular form of the evolution (example: Gastrodon). I need to decide
   how to handle this. I generally want to ignore forms unless the Pokemon cannot evolve without being a specific
   form.
-* Pokemon forms are displayed like "Burmy (Plant Burmy)" when it should probably just be "Plant Burmy". I'll clean
-  this up after I fix the other issues with forms.
 * Pokemon that evolve into different Pokemon depending on region may not be handled as you'd expect.
 * Pokemon that have different evolution triggers in different games (such as the trade evolutions that use items
   instead in Legends: Arceus) may not be handled as you'd expect.

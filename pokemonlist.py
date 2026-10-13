@@ -33,7 +33,7 @@ def get_name(thing, language):
 	return thing.name
 
 def get_form_name(form, language):
-	for localized_name in form.names:
+	for localized_name in form.form_names:
 		if localized_name.language.name == desired_language:
 			return localized_name.name
 	return ""
