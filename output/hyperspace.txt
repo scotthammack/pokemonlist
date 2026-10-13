@@ -1,0 +1,132 @@
+001: Mankey
+002: Primeape: Evolves from Mankey at level 28
+003: Annihilape: Evolves from Primeape after using Rage Fist 20 times
+004: Meowth
+005: Persian: Evolves from Meowth at level 28
+006: Perrserker: Evolves from Meowth at level 28
+007: Farfetch’d
+008: Sirfetch’d: Evolves from Farfetch’d by doing something weird
+009: Cubone
+010: Marowak: Evolves from Cubone at level 28
+011: Porygon
+012: Porygon2: Evolves from Porygon when traded while holding Upgrade
+013: Porygon-Z: Evolves from Porygon2 when traded while holding Dubious Disc
+014: Capsakid
+015: Scovillain: Evolves from Capsakid when exposed to Fire Stone
+016: Tinkatink
+017: Tinkatuff: Evolves from Tinkatink at level 24
+018: Tinkaton: Evolves from Tinkatuff at level 38
+019: Cyclizar
+020: Glimmet
+021: Glimmora: Evolves from Glimmet at level 35
+022: Rotom
+023: Greavard
+024: Houndstone: Evolves from Greavard at level 30 during night
+025: Sandygast
+026: Palossand: Evolves from Sandygast at level 42
+027: Kecleon
+028: Flamigo
+029: Cryogonal
+030: Dondozo
+031: Tatsugiri
+032: Frigibax
+033: Arctibax: Evolves from Frigibax at level 35
+034: Baxcalibur: Evolves from Arctibax at level 54
+035: Gimmighoul
+036: Gholdengo: Evolves from Gimmighoulwhen leveled up while having at least 999 Gimmighoul Coins
+037: Qwilfish
+038: Overqwil: Evolves from Qwilfish by doing something weird
+039: Treecko
+040: Grovyle: Evolves from Treecko at level 16
+041: Sceptile: Evolves from Grovyle at level 36
+042: Torchic
+043: Combusken: Evolves from Torchic at level 16
+044: Blaziken: Evolves from Combusken at level 36
+045: Mudkip
+046: Marshtomp: Evolves from Mudkip at level 16
+047: Swampert: Evolves from Marshtomp at level 36
+048: Feebas
+049: Milotic: Evolves from Feebas when leveled up with beauty 170
+050: Chingling
+051: Chimecho: Evolves from Chingling when leveled up with friendship 220 during night
+052: Indeedee
+053: Purrloin
+054: Liepard: Evolves from Purrloin at level 20
+055: Munna
+056: Musharna: Evolves from Munna when exposed to Moon Stone
+057: Throh
+058: Sawk
+059: Yamask
+060: Cofagrigus: Evolves from Yamask at level 34
+061: Runerigus: Evolves from Yamask by doing something weird at Dusty Bowl after taking 49 damage
+062: Wimpod
+063: Golisopod: Evolves from Wimpod at level 30
+064: Nickit
+065: Thievul: Evolves from Nickit at level 18
+066: Clobbopus
+067: Grapploct: Evolves from Clobbopus when leveled up while knowing Taunt
+068: Mimikyu
+069: Kleavor: Evolves from Scyther when exposed to Black Augurite
+070: Morpeko
+071: Golett
+072: Golurk: Evolves from Golett at level 43
+073: Rookidee
+074: Corvisquire: Evolves from Rookidee at level 18
+075: Corviknight: Evolves from Corvisquire at level 38
+076: Igglybuff
+077: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 160
+078: Wigglytuff: Evolves from Jigglypuff when exposed to Moon Stone
+079: Fidough
+080: Dachsbun: Evolves from Fidough at level 26
+081: Starly
+082: Staravia: Evolves from Starly at level 14
+083: Staraptor: Evolves from Staravia at level 34
+084: Spoink
+085: Grumpig: Evolves from Spoink at level 32
+086: Squawkabilly
+087: Crabrawler
+088: Crabominable: Evolves from Crabrawler when leveled up at Mount Lanakila
+089: Nacli
+090: Naclstack: Evolves from Nacli at level 24
+091: Garganacl: Evolves from Naclstack at level 38
+092: Gulpin
+093: Swalot: Evolves from Gulpin at level 26
+094: Zubat
+095: Golbat: Evolves from Zubat at level 22
+096: Crobat: Evolves from Golbat when leveled up with friendship 160
+097: Charcadet
+098: Armarouge: Evolves from Charcadet when exposed to Auspicious Armor
+099: Ceruledge: Evolves from Charcadet when exposed to Malicious Armor
+100: Maschiff
+101: Mabosstiff: Evolves from Maschiff at level 30
+102: Toxel
+103: Toxtricity: Evolves from Toxel at level 30
+104: Shroodle
+105: Grafaiai: Evolves from Shroodle at level 28
+106: Zangoose
+107: Seviper
+108: Mime Jr.
+109: Mr. Mime: Evolves from Mime Jr. when leveled up while knowing Mimic
+110: Mr. Rime: Evolves from Mr. Mime at level 42
+111: Foongus
+112: Amoonguss: Evolves from Foongus at level 39
+113: Heatran
+114: Volcanion
+115: Cobalion
+116: Terrakion
+117: Virizion
+118: Keldeo
+119: Meloetta
+120: Genesect
+121: Hoopa
+122: Marshadow
+123: Meltan
+124: Melmetal: Evolves from Meltan by doing something weird
+125: Darkrai
+126: Latias
+127: Latios
+128: Kyogre
+129: Groudon
+130: Rayquaza
+131: Magearna
+132: Zeraora

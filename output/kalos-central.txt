@@ -1,0 +1,153 @@
+001: Chespin
+002: Quilladin: Evolves from Chespin at level 16
+003: Chesnaught: Evolves from Quilladin at level 36
+004: Fennekin
+005: Braixen: Evolves from Fennekin at level 16
+006: Delphox: Evolves from Braixen at level 36
+007: Froakie
+008: Frogadier: Evolves from Froakie at level 16
+009: Greninja: Evolves from Frogadier at level 36
+010: Bunnelby
+011: Diggersby: Evolves from Bunnelby at level 20
+012: Zigzagoon
+013: Linoone: Evolves from Zigzagoon at level 20
+014: Fletchling
+015: Fletchinder: Evolves from Fletchling at level 17
+016: Talonflame: Evolves from Fletchinder at level 35
+017: Pidgey
+018: Pidgeotto: Evolves from Pidgey at level 18
+019: Pidgeot: Evolves from Pidgeotto at level 36
+020: Scatterbug
+021: Spewpa: Evolves from Scatterbug at level 9
+022: Vivillon: Evolves from Spewpa at level 12
+023: Caterpie
+024: Metapod: Evolves from Caterpie at level 7
+025: Butterfree: Evolves from Metapod at level 10
+026: Weedle
+027: Kakuna: Evolves from Weedle at level 7
+028: Beedrill: Evolves from Kakuna at level 10
+029: Pansage
+030: Simisage: Evolves from Pansage when exposed to Leaf Stone
+031: Pansear
+032: Simisear: Evolves from Pansear when exposed to Fire Stone
+033: Panpour
+034: Simipour: Evolves from Panpour when exposed to Water Stone
+035: Pichu
+036: Pikachu: Evolves from Pichu when leveled up with friendship 220
+037: Raichu: Evolves from Pikachu when exposed to Thunder Stone
+038: Bidoof
+039: Bibarel: Evolves from Bidoof at level 15
+040: Dunsparce
+041: Azurill
+042: Marill: Evolves from Azurill when leveled up with friendship 160
+043: Azumarill: Evolves from Marill at level 18
+044: Burmy
+045: Wormadam: Evolves from Burmy at level 20 (female only)
+046: Mothim: Evolves from Burmy at level 20 (male only)
+047: Surskit
+048: Masquerain: Evolves from Surskit at level 22
+049: Magikarp
+050: Gyarados: Evolves from Magikarp at level 20
+051: Corphish
+052: Crawdaunt: Evolves from Corphish at level 30
+053: Goldeen
+054: Seaking: Evolves from Goldeen at level 33
+055: Carvanha
+056: Sharpedo: Evolves from Carvanha at level 30
+057: Litleo
+058: Pyroar: Evolves from Litleo at level 35
+059: Psyduck
+060: Golduck: Evolves from Psyduck at level 33
+061: Farfetch’d
+062: Riolu
+063: Lucario: Evolves from Riolu when leveled up with friendship 160 during day
+064: Ralts
+065: Kirlia: Evolves from Ralts at level 20
+066: Gardevoir: Evolves from Kirlia at level 30
+067: Gallade: Evolves from Kirlia when exposed to Dawn Stone (male only)
+068: Flabébé
+069: Floette: Evolves from Flabébé at level 19
+070: Florges: Evolves from Floette when exposed to Shiny Stone
+071: Budew
+072: Roselia: Evolves from Budew when leveled up with friendship 160 during day
+073: Roserade: Evolves from Roselia when exposed to Shiny Stone
+074: Ledyba
+075: Ledian: Evolves from Ledyba at level 18
+076: Combee
+077: Vespiquen: Evolves from Combee at level 21 (female only)
+078: Skitty
+079: Delcatty: Evolves from Skitty when exposed to Moon Stone
+080: Bulbasaur
+081: Ivysaur: Evolves from Bulbasaur at level 16
+082: Venusaur: Evolves from Ivysaur at level 32
+083: Charmander
+084: Charmeleon: Evolves from Charmander at level 16
+085: Charizard: Evolves from Charmeleon at level 36
+086: Squirtle
+087: Wartortle: Evolves from Squirtle at level 16
+088: Blastoise: Evolves from Wartortle at level 36
+089: Skiddo
+090: Gogoat: Evolves from Skiddo at level 32
+091: Pancham
+092: Pangoro: Evolves from Pancham at level 32 with a Dark-type Pokemon in the party
+093: Furfrou
+094: Doduo
+095: Dodrio: Evolves from Doduo at level 31
+096: Plusle
+097: Minun
+098: Gulpin
+099: Swalot: Evolves from Gulpin at level 26
+100: Scraggy
+101: Scrafty: Evolves from Scraggy at level 39
+102: Abra
+103: Kadabra: Evolves from Abra at level 16
+104: Alakazam: Evolves from Kadabra when traded
+105: Oddish
+106: Gloom: Evolves from Oddish at level 21
+107: Vileplume: Evolves from Gloom when exposed to Leaf Stone
+108: Bellossom: Evolves from Gloom when exposed to Sun Stone
+109: Sentret
+110: Furret: Evolves from Sentret at level 15
+111: Nincada
+112: Ninjask: Evolves from Nincada at level 20
+113: Shedinja: Evolves from Nincada by doing something weird
+114: Espurr
+115: Meowstic: Evolves from Espurr at level 25 (male only)
+116: Kecleon
+117: Honedge
+118: Doublade: Evolves from Honedge at level 35
+119: Aegislash: Evolves from Doublade when exposed to Dusk Stone
+120: Venipede
+121: Whirlipede: Evolves from Venipede at level 22
+122: Scolipede: Evolves from Whirlipede at level 30
+123: Audino
+124: Smeargle
+125: Croagunk
+126: Toxicroak: Evolves from Croagunk at level 37
+127: Ducklett
+128: Swanna: Evolves from Ducklett at level 35
+129: Spritzee
+130: Aromatisse: Evolves from Spritzee when traded while holding Sachet
+131: Swirlix
+132: Slurpuff: Evolves from Swirlix when traded while holding Whipped Dream
+133: Volbeat
+134: Illumise
+135: Hoppip
+136: Skiploom: Evolves from Hoppip at level 18
+137: Jumpluff: Evolves from Skiploom at level 27
+138: Munchlax
+139: Snorlax: Evolves from Munchlax when leveled up with friendship 160
+140: Whismur
+141: Loudred: Evolves from Whismur at level 20
+142: Exploud: Evolves from Loudred at level 40
+143: Meditite
+144: Medicham: Evolves from Meditite at level 37
+145: Zubat
+146: Golbat: Evolves from Zubat at level 22
+147: Crobat: Evolves from Golbat when leveled up with friendship 160
+148: Axew
+149: Fraxure: Evolves from Axew at level 38
+150: Haxorus: Evolves from Fraxure at level 48
+151: Diancie
+152: Hoopa
+153: Volcanion

@@ -1,0 +1,242 @@
+001: Rowlet
+002: Dartrix: Evolves from Rowlet at level 17
+003: Decidueye: Evolves from Dartrix at level 34
+004: Cyndaquil
+005: Quilava: Evolves from Cyndaquil at level 14
+006: Typhlosion: Evolves from Quilava at level 36
+007: Oshawott
+008: Dewott: Evolves from Oshawott at level 17
+009: Samurott: Evolves from Dewott at level 36
+010: Bidoof
+011: Bibarel: Evolves from Bidoof at level 15
+012: Starly
+013: Staravia: Evolves from Starly at level 14
+014: Staraptor: Evolves from Staravia at level 34
+015: Shinx
+016: Luxio: Evolves from Shinx at level 15
+017: Luxray: Evolves from Luxio at level 30
+018: Wurmple
+019: Silcoon: Evolves from Wurmple at level 7
+020: Beautifly: Evolves from Silcoon at level 10
+021: Cascoon
+022: Dustox
+023: Ponyta
+024: Rapidash: Evolves from Ponyta at level 40
+025: Eevee
+026: Vaporeon: Evolves from Eevee when exposed to Water Stone
+027: Jolteon: Evolves from Eevee when exposed to Thunder Stone
+028: Flareon: Evolves from Eevee when exposed to Fire Stone
+029: Espeon: Evolves from Eevee when leveled up with friendship 160 during day
+030: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
+031: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
+032: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
+033: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
+034: Zubat
+035: Golbat: Evolves from Zubat at level 22
+036: Crobat: Evolves from Golbat when leveled up with friendship 160
+037: Drifloon
+038: Drifblim: Evolves from Drifloon at level 28
+039: Kricketot
+040: Kricketune: Evolves from Kricketot at level 10
+041: Buizel
+042: Floatzel: Evolves from Buizel at level 26
+043: Burmy
+044: Wormadam: Evolves from Burmy at level 20 (female only)
+045: Mothim: Evolves from Burmy at level 20 (male only)
+046: Geodude
+047: Graveler: Evolves from Geodude at level 25
+048: Golem: Evolves from Graveler when traded
+049: Stantler
+050: Wyrdeer: Evolves from Stantler by doing something weird
+051: Munchlax
+052: Snorlax: Evolves from Munchlax when leveled up with friendship 160
+053: Paras
+054: Parasect: Evolves from Paras at level 24
+055: Pichu
+056: Pikachu: Evolves from Pichu when leveled up with friendship 220
+057: Raichu: Evolves from Pikachu when exposed to Thunder Stone
+058: Abra
+059: Kadabra: Evolves from Abra at level 16
+060: Alakazam: Evolves from Kadabra when traded
+061: Chimchar
+062: Monferno: Evolves from Chimchar at level 14
+063: Infernape: Evolves from Monferno at level 36
+064: Buneary
+065: Lopunny: Evolves from Buneary when leveled up with friendship 160
+066: Cherubi
+067: Cherrim: Evolves from Cherubi at level 25
+068: Psyduck
+069: Golduck: Evolves from Psyduck at level 33
+070: Combee
+071: Vespiquen: Evolves from Combee at level 21 (female only)
+072: Scyther
+073: Kleavor: Evolves from Scyther when exposed to Black Augurite
+074: Scizor: Evolves from Scyther when traded while holding Metal Coat
+075: Heracross
+076: Mime Jr.
+077: Mr. Mime: Evolves from Mime Jr. when leveled up while knowing Mimic
+078: Aipom
+079: Ambipom: Evolves from Aipom when leveled up while knowing Double Hit
+080: Magikarp
+081: Gyarados: Evolves from Magikarp at level 20
+082: Shellos
+083: Gastrodon: Evolves from Shellos at level 30
+084: Qwilfish
+085: Overqwil: Evolves from Qwilfish by doing something weird
+086: Happiny
+087: Chansey: Evolves from Happiny when leveled up while holding Oval Stone during day
+088: Blissey: Evolves from Chansey when leveled up with friendship 160
+089: Budew
+090: Roselia: Evolves from Budew when leveled up with friendship 160 during day
+091: Roserade: Evolves from Roselia when exposed to Shiny Stone
+092: Carnivine
+093: Petilil
+094: Lilligant: Evolves from Petilil when exposed to Sun Stone
+095: Tangela
+096: Tangrowth: Evolves from Tangela when leveled up while knowing Ancient Power
+097: Barboach
+098: Whiscash: Evolves from Barboach at level 30
+099: Croagunk
+100: Toxicroak: Evolves from Croagunk at level 37
+101: Ralts
+102: Kirlia: Evolves from Ralts at level 20
+103: Gardevoir: Evolves from Kirlia at level 30
+104: Gallade: Evolves from Kirlia when exposed to Dawn Stone (male only)
+105: Yanma
+106: Yanmega: Evolves from Yanma when leveled up while knowing Ancient Power
+107: Hippopotas
+108: Hippowdon: Evolves from Hippopotas at level 34
+109: Pachirisu
+110: Stunky
+111: Skuntank: Evolves from Stunky at level 34
+112: Teddiursa
+113: Ursaring: Evolves from Teddiursa at level 30
+114: Ursaluna: Evolves from Ursaring when exposed to Peat Block during full-moon
+115: Goomy
+116: Sliggoo: Evolves from Goomy at level 40
+117: Goodra: Evolves from Sliggoo at level 50 in rain
+118: Onix
+119: Steelix: Evolves from Onix when traded while holding Metal Coat
+120: Rhyhorn
+121: Rhydon: Evolves from Rhyhorn at level 42
+122: Rhyperior: Evolves from Rhydon when traded while holding Protector
+123: Bonsly
+124: Sudowoodo: Evolves from Bonsly when leveled up while knowing Mimic
+125: Lickitung
+126: Lickilicky: Evolves from Lickitung when leveled up while knowing Rollout
+127: Togepi
+128: Togetic: Evolves from Togepi when leveled up with friendship 160
+129: Togekiss: Evolves from Togetic when exposed to Shiny Stone
+130: Turtwig
+131: Grotle: Evolves from Turtwig at level 18
+132: Torterra: Evolves from Grotle at level 32
+133: Porygon
+134: Porygon2: Evolves from Porygon when traded while holding Upgrade
+135: Porygon-Z: Evolves from Porygon2 when traded while holding Dubious Disc
+136: Gastly
+137: Haunter: Evolves from Gastly at level 25
+138: Gengar: Evolves from Haunter when traded
+139: Spiritomb
+140: Murkrow
+141: Honchkrow: Evolves from Murkrow when exposed to Dusk Stone
+142: Unown
+143: Spheal
+144: Sealeo: Evolves from Spheal at level 32
+145: Walrein: Evolves from Sealeo at level 44
+146: Remoraid
+147: Octillery: Evolves from Remoraid at level 25
+148: Skorupi
+149: Drapion: Evolves from Skorupi at level 40
+150: Growlithe
+151: Arcanine: Evolves from Growlithe when exposed to Fire Stone
+152: Glameow
+153: Purugly: Evolves from Glameow at level 38
+154: Machop
+155: Machoke: Evolves from Machop at level 28
+156: Machamp: Evolves from Machoke when traded
+157: Chatot
+158: Duskull
+159: Dusclops: Evolves from Duskull at level 37
+160: Dusknoir: Evolves from Dusclops when traded while holding Reaper Cloth
+161: Piplup
+162: Prinplup: Evolves from Piplup at level 16
+163: Empoleon: Evolves from Prinplup at level 36
+164: Mantyke
+165: Mantine: Evolves from Mantyke when leveled up
+166: Basculin
+167: Basculegion: Evolves from Basculin by doing something weird after taking 294 damage (male only)
+168: Vulpix
+169: Ninetales: Evolves from Vulpix when exposed to Fire Stone
+170: Tentacool
+171: Tentacruel: Evolves from Tentacool at level 30
+172: Finneon
+173: Lumineon: Evolves from Finneon at level 31
+174: Magby
+175: Magmar: Evolves from Magby at level 30
+176: Magmortar: Evolves from Magmar when traded while holding Magmarizer
+177: Magnemite
+178: Magneton: Evolves from Magnemite at level 30
+179: Magnezone: Evolves from Magneton when leveled up at Mt. Coronet
+180: Bronzor
+181: Bronzong: Evolves from Bronzor at level 33
+182: Elekid
+183: Electabuzz: Evolves from Elekid at level 30
+184: Electivire: Evolves from Electabuzz when traded while holding Electirizer
+185: Gligar
+186: Gliscor: Evolves from Gligar when leveled up while holding Razor Fang during night
+187: Gible
+188: Gabite: Evolves from Gible at level 24
+189: Garchomp: Evolves from Gabite at level 48
+190: Nosepass
+191: Probopass: Evolves from Nosepass when leveled up at Mt. Coronet
+192: Voltorb
+193: Electrode: Evolves from Voltorb at level 30
+194: Rotom
+195: Chingling
+196: Chimecho: Evolves from Chingling when leveled up with friendship 220 during night
+197: Misdreavus
+198: Mismagius: Evolves from Misdreavus when exposed to Dusk Stone
+199: Cleffa
+200: Clefairy: Evolves from Cleffa when leveled up with friendship 160
+201: Clefable: Evolves from Clefairy when exposed to Moon Stone
+202: Sneasel
+203: Sneasler: Evolves from Sneasel when leveled up while holding Razor Claw during day
+204: Weavile: Evolves from Sneasel when leveled up while holding Razor Claw during night
+205: Snorunt
+206: Glalie: Evolves from Snorunt at level 42
+207: Froslass: Evolves from Snorunt when exposed to Dawn Stone (female only)
+208: Cranidos
+209: Rampardos: Evolves from Cranidos at level 30
+210: Shieldon
+211: Bastiodon: Evolves from Shieldon at level 30
+212: Swinub
+213: Piloswine: Evolves from Swinub at level 33
+214: Mamoswine: Evolves from Piloswine when leveled up while knowing Ancient Power
+215: Bergmite
+216: Avalugg: Evolves from Bergmite at level 37
+217: Snover
+218: Abomasnow: Evolves from Snover at level 40
+219: Zorua
+220: Zoroark: Evolves from Zorua at level 30
+221: Rufflet
+222: Braviary: Evolves from Rufflet at level 54
+223: Riolu
+224: Lucario: Evolves from Riolu when leveled up with friendship 160 during day
+225: Uxie
+226: Mesprit
+227: Azelf
+228: Heatran
+229: Regigigas
+230: Cresselia
+231: Tornadus
+232: Thundurus
+233: Landorus
+234: Enamorus
+235: Dialga
+236: Palkia
+237: Giratina
+238: Arceus
+239: Phione
+240: Manaphy
+241: Shaymin
+242: Darkrai

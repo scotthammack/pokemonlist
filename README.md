@@ -24,6 +24,9 @@ As I write this, I'm seeing that there are other PokeAPI wrapper libraries for P
 being maintained, so maybe I'll eventually update this to use one of those instead. I just used the first
 one they listed in the docs. Oops!
 
+P.S. I have also included in the repo some sample output for some of the more common Pokedexes, so you
+don't even need to run this yourself if you just want the data.
+
 Requirements
 ------------
 [PokeBase library](https://github.com/PokeAPI/pokebase)

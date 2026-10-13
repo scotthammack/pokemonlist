@@ -1,0 +1,151 @@
+001: Diglett
+002: Dugtrio: Evolves from Diglett at level 26
+003: Trapinch
+004: Vibrava: Evolves from Trapinch at level 35
+005: Flygon: Evolves from Vibrava at level 45
+006: Gible
+007: Gabite: Evolves from Gible at level 24
+008: Garchomp: Evolves from Gabite at level 48
+009: Geodude
+010: Graveler: Evolves from Geodude at level 25
+011: Golem: Evolves from Graveler when traded
+012: Slugma
+013: Magcargo: Evolves from Slugma at level 38
+014: Shuckle
+015: Skorupi
+016: Drapion: Evolves from Skorupi at level 40
+017: Wooper
+018: Quagsire: Evolves from Wooper at level 20
+019: Goomy
+020: Sliggoo: Evolves from Goomy at level 40
+021: Goodra: Evolves from Sliggoo at level 50 in rain
+022: Karrablast
+023: Escavalier: Evolves from Karrablast when traded
+024: Shelmet
+025: Accelgor: Evolves from Shelmet when traded
+026: Bellsprout
+027: Weepinbell: Evolves from Bellsprout at level 21
+028: Victreebel: Evolves from Weepinbell when exposed to Leaf Stone
+029: Carnivine
+030: Gastly
+031: Haunter: Evolves from Gastly at level 25
+032: Gengar: Evolves from Haunter when traded
+033: Poliwag
+034: Poliwhirl: Evolves from Poliwag at level 25
+035: Poliwrath: Evolves from Poliwhirl when exposed to Water Stone
+036: Politoed: Evolves from Poliwhirl when traded while holding King’s Rock
+037: Ekans
+038: Arbok: Evolves from Ekans at level 22
+039: Stunfisk
+040: Barboach
+041: Whiscash: Evolves from Barboach at level 30
+042: Purrloin
+043: Liepard: Evolves from Purrloin at level 20
+044: Poochyena
+045: Mightyena: Evolves from Poochyena at level 18
+046: Patrat
+047: Watchog: Evolves from Patrat at level 20
+048: Pawniard
+049: Bisharp: Evolves from Pawniard at level 52
+050: Klefki
+051: Murkrow
+052: Honchkrow: Evolves from Murkrow when exposed to Dusk Stone
+053: Foongus
+054: Amoonguss: Evolves from Foongus at level 39
+055: Lotad
+056: Lombre: Evolves from Lotad at level 14
+057: Ludicolo: Evolves from Lombre when exposed to Water Stone
+058: Buizel
+059: Floatzel: Evolves from Buizel at level 26
+060: Basculin
+061: Phantump
+062: Trevenant: Evolves from Phantump when traded
+063: Pumpkaboo
+064: Gourgeist: Evolves from Pumpkaboo when traded
+065: Litwick
+066: Lampent: Evolves from Litwick at level 41
+067: Chandelure: Evolves from Lampent when exposed to Dusk Stone
+068: Rotom
+069: Magnemite
+070: Magneton: Evolves from Magnemite at level 30
+071: Magnezone: Evolves from Magneton when leveled up at Mt. Coronet
+072: Voltorb
+073: Electrode: Evolves from Voltorb at level 30
+074: Trubbish
+075: Garbodor: Evolves from Trubbish at level 36
+076: Swinub
+077: Piloswine: Evolves from Swinub at level 33
+078: Mamoswine: Evolves from Piloswine when leveled up while knowing Ancient Power
+079: Bergmite
+080: Avalugg: Evolves from Bergmite at level 37
+081: Cubchoo
+082: Beartic: Evolves from Cubchoo at level 37
+083: Smoochum
+084: Jynx: Evolves from Smoochum at level 30
+085: Vanillite
+086: Vanillish: Evolves from Vanillite at level 35
+087: Vanilluxe: Evolves from Vanillish at level 47
+088: Snover
+089: Abomasnow: Evolves from Snover at level 40
+090: Delibird
+091: Sneasel
+092: Weavile: Evolves from Sneasel when leveled up while holding Razor Claw during night
+093: Timburr
+094: Gurdurr: Evolves from Timburr at level 25
+095: Conkeldurr: Evolves from Gurdurr when traded
+096: Torkoal
+097: Sandshrew
+098: Sandslash: Evolves from Sandshrew at level 22
+099: Aron
+100: Lairon: Evolves from Aron at level 32
+101: Aggron: Evolves from Lairon at level 42
+102: Larvitar
+103: Pupitar: Evolves from Larvitar at level 30
+104: Tyranitar: Evolves from Pupitar at level 55
+105: Heatmor
+106: Durant
+107: Spinarak
+108: Ariados: Evolves from Spinarak at level 22
+109: Spearow
+110: Fearow: Evolves from Spearow at level 20
+111: Cryogonal
+112: Skarmory
+113: Noibat
+114: Noivern: Evolves from Noibat at level 48
+115: Gligar
+116: Gliscor: Evolves from Gligar when leveled up while holding Razor Fang during night
+117: Hoothoot
+118: Noctowl: Evolves from Hoothoot at level 20
+119: Igglybuff
+120: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 160
+121: Wigglytuff: Evolves from Jigglypuff when exposed to Moon Stone
+122: Shuppet
+123: Banette: Evolves from Shuppet at level 37
+124: Zorua
+125: Zoroark: Evolves from Zorua at level 30
+126: Gothita
+127: Gothorita: Evolves from Gothita at level 32
+128: Gothitelle: Evolves from Gothorita at level 41
+129: Bonsly
+130: Sudowoodo: Evolves from Bonsly when leveled up while knowing Mimic
+131: Spinda
+132: Teddiursa
+133: Ursaring: Evolves from Teddiursa at level 30
+134: Lickitung
+135: Lickilicky: Evolves from Lickitung when leveled up while knowing Rollout
+136: Scyther
+137: Scizor: Evolves from Scyther when traded while holding Metal Coat
+138: Ditto
+139: Swablu
+140: Altaria: Evolves from Swablu at level 35
+141: Druddigon
+142: Deino
+143: Zweilous: Evolves from Deino at level 50
+144: Hydreigon: Evolves from Zweilous at level 64
+145: Dratini
+146: Dragonair: Evolves from Dratini at level 30
+147: Dragonite: Evolves from Dragonair at level 55
+148: Xerneas
+149: Yveltal
+150: Zygarde
+151: Mewtwo

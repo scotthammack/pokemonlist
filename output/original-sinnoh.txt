@@ -1,0 +1,151 @@
+001: Turtwig
+002: Grotle: Evolves from Turtwig at level 18
+003: Torterra: Evolves from Grotle at level 32
+004: Chimchar
+005: Monferno: Evolves from Chimchar at level 14
+006: Infernape: Evolves from Monferno at level 36
+007: Piplup
+008: Prinplup: Evolves from Piplup at level 16
+009: Empoleon: Evolves from Prinplup at level 36
+010: Starly
+011: Staravia: Evolves from Starly at level 14
+012: Staraptor: Evolves from Staravia at level 34
+013: Bidoof
+014: Bibarel: Evolves from Bidoof at level 15
+015: Kricketot
+016: Kricketune: Evolves from Kricketot at level 10
+017: Shinx
+018: Luxio: Evolves from Shinx at level 15
+019: Luxray: Evolves from Luxio at level 30
+020: Abra
+021: Kadabra: Evolves from Abra at level 16
+022: Alakazam: Evolves from Kadabra when traded
+023: Magikarp
+024: Gyarados: Evolves from Magikarp at level 20
+025: Budew
+026: Roselia: Evolves from Budew when leveled up with friendship 160
+027: Roserade: Evolves from Roselia when exposed to Shiny Stone
+028: Zubat
+029: Golbat: Evolves from Zubat at level 22
+030: Crobat: Evolves from Golbat when leveled up with friendship 160
+031: Geodude
+032: Graveler: Evolves from Geodude at level 25
+033: Golem: Evolves from Graveler when traded
+034: Onix
+035: Steelix: Evolves from Onix when traded while holding Metal Coat
+036: Cranidos
+037: Rampardos: Evolves from Cranidos at level 30
+038: Shieldon
+039: Bastiodon: Evolves from Shieldon at level 30
+040: Machop
+041: Machoke: Evolves from Machop at level 28
+042: Machamp: Evolves from Machoke when traded
+043: Psyduck
+044: Golduck: Evolves from Psyduck at level 33
+045: Burmy
+046: Wormadam: Evolves from Burmy at level 20 (female only)
+047: Mothim: Evolves from Burmy at level 20 (male only)
+048: Wurmple
+049: Silcoon: Evolves from Wurmple at level 7
+050: Beautifly: Evolves from Silcoon at level 10
+051: Cascoon: Evolves from Wurmple at level 10
+052: Dustox: Evolves from Cascoon at level 10
+053: Combee
+054: Vespiquen: Evolves from Combee at level 21 (female only)
+055: Pachirisu
+056: Buizel
+057: Floatzel: Evolves from Buizel at level 26
+058: Cherubi
+059: Cherrim: Evolves from Cherubi at level 25
+060: Shellos
+061: Gastrodon: Evolves from Shellos at level 30
+062: Heracross
+063: Aipom
+064: Ambipom: Evolves from Aipom when leveled up while knowing Double Hit
+065: Drifloon
+066: Drifblim: Evolves from Drifloon at level 28
+067: Buneary
+068: Lopunny: Evolves from Buneary when leveled up with friendship 160
+069: Gastly
+070: Haunter: Evolves from Gastly at level 25
+071: Gengar: Evolves from Haunter when traded
+072: Misdreavus
+073: Mismagius: Evolves from Misdreavus when exposed to Dusk Stone
+074: Murkrow
+075: Honchkrow: Evolves from Murkrow when exposed to Dusk Stone
+076: Glameow
+077: Purugly: Evolves from Glameow at level 38
+078: Goldeen
+079: Seaking: Evolves from Goldeen at level 33
+080: Barboach
+081: Whiscash: Evolves from Barboach at level 30
+082: Chingling
+083: Chimecho: Evolves from Chingling when leveled up with friendship 220
+084: Stunky
+085: Skuntank: Evolves from Stunky at level 34
+086: Meditite
+087: Medicham: Evolves from Meditite at level 37
+088: Bronzor
+089: Bronzong: Evolves from Bronzor at level 33
+090: Ponyta
+091: Rapidash: Evolves from Ponyta at level 40
+092: Bonsly
+093: Sudowoodo: Evolves from Bonsly when leveled up while knowing Mimic
+094: Mime Jr.
+095: Mr. Mime: Evolves from Mime Jr. when leveled up while knowing Mimic
+096: Happiny
+097: Chansey: Evolves from Happiny when leveled up while holding Oval Stone
+098: Blissey: Evolves from Chansey when leveled up with friendship 160
+099: Cleffa
+100: Clefairy: Evolves from Cleffa when leveled up with friendship 160
+101: Clefable: Evolves from Clefairy when exposed to Moon Stone
+102: Chatot
+103: Pichu
+104: Pikachu: Evolves from Pichu when leveled up with friendship 220
+105: Raichu: Evolves from Pikachu when exposed to Thunder Stone
+106: Hoothoot
+107: Noctowl: Evolves from Hoothoot at level 20
+108: Spiritomb
+109: Gible
+110: Gabite: Evolves from Gible at level 24
+111: Garchomp: Evolves from Gabite at level 48
+112: Munchlax
+113: Snorlax: Evolves from Munchlax when leveled up with friendship 160
+114: Unown
+115: Riolu
+116: Lucario: Evolves from Riolu when leveled up with friendship 160
+117: Wooper
+118: Quagsire: Evolves from Wooper at level 20
+119: Wingull
+120: Pelipper: Evolves from Wingull at level 25
+121: Girafarig
+122: Hippopotas
+123: Hippowdon: Evolves from Hippopotas at level 34
+124: Azurill
+125: Marill: Evolves from Azurill when leveled up with friendship 160
+126: Azumarill: Evolves from Marill at level 18
+127: Skorupi
+128: Drapion: Evolves from Skorupi at level 40
+129: Croagunk
+130: Toxicroak: Evolves from Croagunk at level 37
+131: Carnivine
+132: Remoraid
+133: Octillery: Evolves from Remoraid at level 25
+134: Finneon
+135: Lumineon: Evolves from Finneon at level 31
+136: Tentacool
+137: Tentacruel: Evolves from Tentacool at level 30
+138: Feebas
+139: Milotic: Evolves from Feebas when leveled up with beauty 170
+140: Mantyke
+141: Mantine: Evolves from Mantyke when leveled up
+142: Snover
+143: Abomasnow: Evolves from Snover at level 40
+144: Sneasel
+145: Weavile: Evolves from Sneasel when leveled up while holding Razor Claw
+146: Uxie
+147: Mesprit
+148: Azelf
+149: Dialga
+150: Palkia
+151: Manaphy
