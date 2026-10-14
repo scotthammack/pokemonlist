@@ -23,11 +23,11 @@
 023: Magikarp
 024: Gyarados: Evolves from Magikarp starting at level 20
 025: Budew
-026: Roselia: Evolves from Budew when leveled up with friendship 160 during day
+026: Roselia: Evolves from Budew when leveled up with friendship 220 during day
 027: Roserade: Evolves from Roselia when exposed to Shiny Stone
 028: Zubat
 029: Golbat: Evolves from Zubat starting at level 22
-030: Crobat: Evolves from Golbat when leveled up with friendship 160
+030: Crobat: Evolves from Golbat when leveled up with friendship 220
 031: Geodude
 032: Graveler: Evolves from Geodude starting at level 25
 033: Golem: Evolves from Graveler when traded
@@ -65,7 +65,7 @@
 065: Drifloon
 066: Drifblim: Evolves from Drifloon starting at level 28
 067: Buneary
-068: Lopunny: Evolves from Buneary when leveled up with friendship 160
+068: Lopunny: Evolves from Buneary when leveled up with friendship 220
 069: Gastly
 070: Haunter: Evolves from Gastly starting at level 25
 071: Gengar: Evolves from Haunter when traded
@@ -95,9 +95,9 @@
 095: Mr. Mime: Evolves from Mime Jr. when leveled up while knowing Mimic
 096: Happiny
 097: Chansey: Evolves from Happiny when leveled up while holding Oval Stone during day
-098: Blissey: Evolves from Chansey when leveled up with friendship 160
+098: Blissey: Evolves from Chansey when leveled up with friendship 220
 099: Cleffa
-100: Clefairy: Evolves from Cleffa when leveled up with friendship 160
+100: Clefairy: Evolves from Cleffa when leveled up with friendship 220
 101: Clefable: Evolves from Clefairy when exposed to Moon Stone
 102: Chatot
 103: Pichu
@@ -110,10 +110,10 @@
 110: Gabite: Evolves from Gible starting at level 24
 111: Garchomp: Evolves from Gabite starting at level 48
 112: Munchlax
-113: Snorlax: Evolves from Munchlax when leveled up with friendship 160
+113: Snorlax: Evolves from Munchlax when leveled up with friendship 220
 114: Unown
 115: Riolu
-116: Lucario: Evolves from Riolu when leveled up with friendship 160 during day
+116: Lucario: Evolves from Riolu when leveled up with friendship 220 during day
 117: Wooper
 118: Quagsire: Evolves from Wooper starting at level 20
 119: Wingull
@@ -122,7 +122,7 @@
 122: Hippopotas
 123: Hippowdon: Evolves from Hippopotas starting at level 34
 124: Azurill
-125: Marill: Evolves from Azurill when leveled up with friendship 160
+125: Marill: Evolves from Azurill when leveled up with friendship 220
 126: Azumarill: Evolves from Marill starting at level 18
 127: Skorupi
 128: Drapion: Evolves from Skorupi starting at level 40

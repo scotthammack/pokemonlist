@@ -52,7 +52,7 @@
 052: Magikarp
 053: Gyarados: Evolves from Magikarp starting at level 20
 054: Azurill
-055: Marill: Evolves from Azurill when leveled up with friendship 160
+055: Marill: Evolves from Azurill when leveled up with friendship 220
 056: Azumarill: Evolves from Marill starting at level 18
 057: Geodude
 058: Graveler: Evolves from Geodude starting at level 25
@@ -62,7 +62,7 @@
 062: Delcatty: Evolves from Skitty when exposed to Moon Stone
 063: Zubat
 064: Golbat: Evolves from Zubat starting at level 22
-065: Crobat: Evolves from Golbat when leveled up with friendship 160
+065: Crobat: Evolves from Golbat when leveled up with friendship 220
 066: Tentacool
 067: Tentacruel: Evolves from Tentacool starting at level 30
 068: Sableye
@@ -135,7 +135,7 @@
 135: Anorith
 136: Armaldo: Evolves from Anorith starting at level 40
 137: Igglybuff
-138: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 160
+138: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 220
 139: Wigglytuff: Evolves from Jigglypuff when exposed to Moon Stone
 140: Feebas
 141: Milotic: Evolves from Feebas when leveled up with beauty 170

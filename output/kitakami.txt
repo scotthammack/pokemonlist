@@ -12,13 +12,13 @@
 012: Crawdaunt: Evolves from Corphish starting at level 30
 013: Sewaddle
 014: Swadloon: Evolves from Sewaddle starting at level 20
-015: Leavanny: Evolves from Swadloon when leveled up with friendship 220
+015: Leavanny: Evolves from Swadloon when leveled up with friendship 160
 016: Cutiefly
 017: Ribombee: Evolves from Cutiefly starting at level 25
 018: Ekans
 019: Arbok: Evolves from Ekans starting at level 22
 020: Pichu
-021: Pikachu: Evolves from Pichu when leveled up with friendship 220
+021: Pikachu: Evolves from Pichu when leveled up with friendship 160
 022: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 023: Bellsprout
 024: Weepinbell: Evolves from Bellsprout starting at level 21
@@ -140,7 +140,7 @@
 140: Dusclops: Evolves from Duskull starting at level 37
 141: Dusknoir: Evolves from Dusclops when traded while holding Reaper Cloth
 142: Chingling
-143: Chimecho: Evolves from Chingling when leveled up with friendship 220 during night
+143: Chimecho: Evolves from Chingling when leveled up with friendship 160 during night
 144: Slugma
 145: Magcargo: Evolves from Slugma starting at level 38
 146: Litwick

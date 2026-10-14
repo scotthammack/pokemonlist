@@ -53,7 +53,7 @@
 053: Paras
 054: Parasect: Evolves from Paras starting at level 24
 055: Pichu
-056: Pikachu: Evolves from Pichu when leveled up with friendship 220
+056: Pikachu: Evolves from Pichu when leveled up with friendship 160
 057: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 058: Abra
 059: Kadabra: Evolves from Abra starting at level 16
@@ -193,7 +193,7 @@
 193: Electrode: Evolves from Voltorb (Hisuian Form) when exposed to Leaf Stone
 194: Rotom
 195: Chingling
-196: Chimecho: Evolves from Chingling when leveled up with friendship 220 during night
+196: Chimecho: Evolves from Chingling when leveled up with friendship 160 during night
 197: Misdreavus
 198: Mismagius: Evolves from Misdreavus when exposed to Dusk Stone
 199: Cleffa

@@ -82,7 +82,7 @@
 082: Croagunk
 083: Toxicroak: Evolves from Croagunk starting at level 37
 084: Pichu
-085: Pikachu: Evolves from Pichu when leveled up with friendship 220
+085: Pikachu: Evolves from Pichu when leveled up with friendship 160
 086: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 087: Zorua
 088: Zoroark: Evolves from Zorua starting at level 30

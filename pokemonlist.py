@@ -65,14 +65,14 @@ def pokemon_exists_in_dex(species_name):
 			return True
 	return False
 
-def dex_get_gen_name(dex):
+def dex_get_gen(dex):
 	gen_list = pb.APIResourceList('generation')
 	for group in dex.version_groups:
-		for gen in gen_list:
-			gen_groups = pb.APIResource('generation', gen['name']).version_groups
-			for gen_group in gen_groups:
+		for item in gen_list:
+			gen = pb.APIResource('generation', item['name'])
+			for gen_group in gen.version_groups:
 				if gen_group.name == group.name:
-					return gen['name']
+					return gen
 
 def find_best_details_index(details):
 	for x in range(0, len(details)):
@@ -129,6 +129,8 @@ def get_evolution_info(species_name):
 			elif details[index].trigger.name == 'take-damage':
 				if species.name == 'runerigus':
 					txt = txt + " while standing under an arch"
+					if details[index].location:
+						txt = txt + " at " + get_name(details[index].location, desired_language)
 				txt = txt + " after taking " + str(details[index].min_damage_taken) + " points of damage without fainting"
 			elif details[index].trigger.name == 'recoil-damage':
 				txt = txt + " after taking " + str(details[index].min_damage_taken) + " points of recoil damage without fainting"
@@ -147,7 +149,10 @@ def get_evolution_info(species_name):
 			else:
 				txt = txt + " by doing something weird"
 			if details[index].location:
-				txt = txt + " at " + get_name(details[index].location, desired_language)
+				# in the case of Runerigus, we already printed the name of the location (to make
+				# the sentence less awkward), so don't print it again
+				if species.name != 'runerigus':
+					txt = txt + " at " + get_name(details[index].location, desired_language)
 			if details[index].held_item and details[index].trigger.name != 'spin':
 				txt = txt + " while holding " + get_name(details[index].held_item, desired_language)
 			if details[index].relative_physical_stats == 1:
@@ -163,11 +168,20 @@ def get_evolution_info(species_name):
 			if details[index].party_type:
 				txt = txt + " with a " + get_name(details[index].party_type, desired_language) + "-type Pokemon in the party"
 			if details[index].min_happiness:
-				txt = txt + " with friendship " + str(details[index].min_happiness)
+				# PokeAPI's data does not seem to account for the minimum friendship value
+				# changing globally in gen 8, so some Pokemon have a value of 160 and others
+				# have 220 depending on when the evolution was introduced. Because of this,
+				# we are just ignoring the value from the API and setting it based on the gen
+				# instead. I don't like this, but it seems necessary.
+				if (not gen) or (gen.id >= 8):
+					min_happiness = 160
+				else:
+					min_happiness = 220
+				txt = txt + " with friendship " + str(min_happiness)
 			if details[index].min_beauty:
 				txt = txt + " with beauty " + str(details[index].min_beauty)
 			if details[index].min_affection:
-				if gen_name == 'generation-vi' or gen_name == 'generation-vii':
+				if gen and (gen.id == 6 or gen.id == 7):
 					txt = txt + " with affection " + str(details[index].min_affection)
 			if details[index].min_steps:
 				txt = txt + " when leveled up outside of a ball after walking " + str(details[index].min_steps) + " steps"
@@ -188,13 +202,12 @@ def get_evolution_info(species_name):
 			elif details[index].gender == 2:
 				if species.name != 'basculegion' and species.name != 'meowstic':
 					txt = txt + " (male only)"
-			elif details[index].gender == 3:
+			elif details[index].gender == 3:	# not currently used afaik
 				txt = txt + " (genderless only)"
 	return txt
 
-gen_name = dex_get_gen_name(dex)
+gen = dex_get_gen(dex)
 
-debug_print("Generation: " + str(gen_name))
 for entry in dex.pokemon_entries:
 	species = entry.pokemon_species
 	txt = get_name(species, desired_language)

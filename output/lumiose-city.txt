@@ -50,7 +50,7 @@
 050: Garbodor: Evolves from Trubbish starting at level 36
 051: Dedenne
 052: Pichu
-053: Pikachu: Evolves from Pichu when leveled up with friendship 220
+053: Pikachu: Evolves from Pichu when leveled up with friendship 160
 054: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 055: Cleffa
 056: Clefairy: Evolves from Cleffa when leveled up with friendship 160

@@ -48,7 +48,7 @@
 048: Feebas
 049: Milotic: Evolves from Feebas when leveled up with beauty 170
 050: Chingling
-051: Chimecho: Evolves from Chingling when leveled up with friendship 220 during night
+051: Chimecho: Evolves from Chingling when leveled up with friendship 160 during night
 052: Indeedee
 053: Purrloin
 054: Liepard: Evolves from Purrloin starting at level 20
@@ -58,7 +58,7 @@
 058: Sawk
 059: Yamask
 060: Cofagrigus: Evolves from Yamask starting at level 34
-061: Runerigus: Evolves from Yamask (Galarian Form) while standing under an arch after taking 49 points of damage without fainting at Dusty Bowl
+061: Runerigus: Evolves from Yamask (Galarian Form) while standing under an arch at Dusty Bowl after taking 49 points of damage without fainting
 062: Wimpod
 063: Golisopod: Evolves from Wimpod starting at level 30
 064: Nickit

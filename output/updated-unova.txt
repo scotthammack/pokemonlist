@@ -29,10 +29,10 @@
 028: Psyduck
 029: Golduck: Evolves from Psyduck starting at level 33
 030: Azurill
-031: Marill: Evolves from Azurill when leveled up with friendship 160
+031: Marill: Evolves from Azurill when leveled up with friendship 220
 032: Azumarill: Evolves from Marill starting at level 18
 033: Riolu
-034: Lucario: Evolves from Riolu when leveled up with friendship 160 during day
+034: Lucario: Evolves from Riolu when leveled up with friendship 220 during day
 035: Dunsparce
 036: Audino
 037: Pansage
@@ -61,11 +61,11 @@
 060: Raticate: Evolves from Rattata starting at level 20
 061: Zubat
 062: Golbat: Evolves from Zubat starting at level 22
-063: Crobat: Evolves from Golbat when leveled up with friendship 160
+063: Crobat: Evolves from Golbat when leveled up with friendship 220
 064: Grimer
 065: Muk: Evolves from Grimer starting at level 38
 066: Woobat
-067: Swoobat: Evolves from Woobat when leveled up with friendship 160
+067: Swoobat: Evolves from Woobat when leveled up with friendship 220
 068: Roggenrola
 069: Boldore: Evolves from Roggenrola starting at level 25
 070: Gigalith: Evolves from Boldore when traded
@@ -79,7 +79,7 @@
 078: Skitty
 079: Delcatty: Evolves from Skitty when exposed to Moon Stone
 080: Buneary
-081: Lopunny: Evolves from Buneary when leveled up with friendship 160
+081: Lopunny: Evolves from Buneary when leveled up with friendship 220
 082: Cottonee
 083: Whimsicott: Evolves from Cottonee when exposed to Sun Stone
 084: Petilil
@@ -87,14 +87,14 @@
 086: Munna
 087: Musharna: Evolves from Munna when exposed to Moon Stone
 088: Cleffa
-089: Clefairy: Evolves from Cleffa when leveled up with friendship 160
+089: Clefairy: Evolves from Cleffa when leveled up with friendship 220
 090: Clefable: Evolves from Clefairy when exposed to Moon Stone
 091: Eevee
 092: Vaporeon: Evolves from Eevee when exposed to Water Stone
 093: Jolteon: Evolves from Eevee when exposed to Thunder Stone
 094: Flareon: Evolves from Eevee when exposed to Fire Stone
-095: Espeon: Evolves from Eevee when leveled up with friendship 160 during day
-096: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
+095: Espeon: Evolves from Eevee when leveled up with friendship 220 during day
+096: Umbreon: Evolves from Eevee when leveled up with friendship 220 during night
 097: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
 098: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
 099: Sandile
@@ -132,7 +132,7 @@
 131: Klang: Evolves from Klink starting at level 38
 132: Klinklang: Evolves from Klang starting at level 49
 133: Budew
-134: Roselia: Evolves from Budew when leveled up with friendship 160 during day
+134: Roselia: Evolves from Budew when leveled up with friendship 220 during day
 135: Roserade: Evolves from Roselia when exposed to Shiny Stone
 136: Gothita
 137: Gothorita: Evolves from Gothita starting at level 32
@@ -280,7 +280,7 @@
 279: Corphish
 280: Crawdaunt: Evolves from Corphish starting at level 30
 281: Igglybuff
-282: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 160
+282: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 220
 283: Wigglytuff: Evolves from Jigglypuff when exposed to Moon Stone
 284: Lickitung
 285: Lickilicky: Evolves from Lickitung when leveled up while knowing Rollout

@@ -39,7 +39,7 @@
 039: Bibarel: Evolves from Bidoof starting at level 15
 040: Dunsparce
 041: Azurill
-042: Marill: Evolves from Azurill when leveled up with friendship 160
+042: Marill: Evolves from Azurill when leveled up with friendship 220
 043: Azumarill: Evolves from Marill starting at level 18
 044: Burmy
 045: Wormadam: Evolves from Burmy starting at level 20 (female only)
@@ -60,7 +60,7 @@
 060: Golduck: Evolves from Psyduck starting at level 33
 061: Farfetch’d
 062: Riolu
-063: Lucario: Evolves from Riolu when leveled up with friendship 160 during day
+063: Lucario: Evolves from Riolu when leveled up with friendship 220 during day
 064: Ralts
 065: Kirlia: Evolves from Ralts starting at level 20
 066: Gardevoir: Evolves from Kirlia starting at level 30
@@ -69,7 +69,7 @@
 069: Floette: Evolves from Flabébé starting at level 19
 070: Florges: Evolves from Floette when exposed to Shiny Stone
 071: Budew
-072: Roselia: Evolves from Budew when leveled up with friendship 160 during day
+072: Roselia: Evolves from Budew when leveled up with friendship 220 during day
 073: Roserade: Evolves from Roselia when exposed to Shiny Stone
 074: Ledyba
 075: Ledian: Evolves from Ledyba starting at level 18
@@ -136,7 +136,7 @@
 136: Skiploom: Evolves from Hoppip starting at level 18
 137: Jumpluff: Evolves from Skiploom starting at level 27
 138: Munchlax
-139: Snorlax: Evolves from Munchlax when leveled up with friendship 160
+139: Snorlax: Evolves from Munchlax when leveled up with friendship 220
 140: Whismur
 141: Loudred: Evolves from Whismur starting at level 20
 142: Exploud: Evolves from Loudred starting at level 40
@@ -144,7 +144,7 @@
 144: Medicham: Evolves from Meditite starting at level 37
 145: Zubat
 146: Golbat: Evolves from Zubat starting at level 22
-147: Crobat: Evolves from Golbat when leveled up with friendship 160
+147: Crobat: Evolves from Golbat when leveled up with friendship 220
 148: Axew
 149: Fraxure: Evolves from Axew starting at level 38
 150: Haxorus: Evolves from Fraxure starting at level 48

@@ -32,7 +32,7 @@
 031: Boldore: Evolves from Roggenrola starting at level 25
 032: Gigalith: Evolves from Boldore when traded
 033: Woobat
-034: Swoobat: Evolves from Woobat when leveled up with friendship 160
+034: Swoobat: Evolves from Woobat when leveled up with friendship 220
 035: Drilbur
 036: Excadrill: Evolves from Drilbur starting at level 31
 037: Audino

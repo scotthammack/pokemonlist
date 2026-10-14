@@ -191,7 +191,7 @@
 191: Pumpkaboo
 192: Gourgeist: Evolves from Pumpkaboo when traded
 193: Pichu
-194: Pikachu: Evolves from Pichu when leveled up with friendship 220
+194: Pikachu: Evolves from Pichu when leveled up with friendship 160
 195: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 196: Eevee
 197: Vaporeon: Evolves from Eevee when exposed to Water Stone
@@ -325,7 +325,7 @@
 325: Fraxure: Evolves from Axew starting at level 38
 326: Haxorus: Evolves from Fraxure starting at level 48
 327: Yamask
-328: Runerigus: Evolves from Yamask (Galarian Form) while standing under an arch after taking 49 points of damage without fainting at Dusty Bowl
+328: Runerigus: Evolves from Yamask (Galarian Form) while standing under an arch at Dusty Bowl after taking 49 points of damage without fainting
 329: Cofagrigus: Evolves from Yamask starting at level 34
 330: Honedge
 331: Doublade: Evolves from Honedge starting at level 35

@@ -22,7 +22,7 @@
 0022: Fearow: Evolves from Spearow starting at level 20
 0023: Ekans
 0024: Arbok: Evolves from Ekans starting at level 22
-0025: Pikachu: Evolves from Pichu when leveled up with friendship 220
+0025: Pikachu: Evolves from Pichu when leveled up with friendship 160
 0026: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 0027: Sandshrew
 0028: Sandslash: Evolves from Sandshrew starting at level 22
@@ -355,7 +355,7 @@
 0355: Duskull
 0356: Dusclops: Evolves from Duskull starting at level 37
 0357: Tropius
-0358: Chimecho: Evolves from Chingling when leveled up with friendship 220 during night
+0358: Chimecho: Evolves from Chingling when leveled up with friendship 160 during night
 0359: Absol
 0360: Wynaut
 0361: Snorunt
@@ -539,7 +539,7 @@
 0539: Sawk
 0540: Sewaddle
 0541: Swadloon: Evolves from Sewaddle starting at level 20
-0542: Leavanny: Evolves from Swadloon when leveled up with friendship 220
+0542: Leavanny: Evolves from Swadloon when leveled up with friendship 160
 0543: Venipede
 0544: Whirlipede: Evolves from Venipede starting at level 22
 0545: Scolipede: Evolves from Whirlipede starting at level 30
@@ -864,7 +864,7 @@
 0864: Cursola: Evolves from Corsola (Galarian Form) starting at level 38
 0865: Sirfetch’d: Evolves from Farfetch’d (Galarian Form) after landing 3 critical hits in a single battle
 0866: Mr. Rime: Evolves from Mr. Mime (Galarian Form) starting at level 42
-0867: Runerigus: Evolves from Yamask (Galarian Form) while standing under an arch after taking 49 points of damage without fainting at Dusty Bowl
+0867: Runerigus: Evolves from Yamask (Galarian Form) while standing under an arch at Dusty Bowl after taking 49 points of damage without fainting
 0868: Milcery
 0869: Alcremie: Evolves from Milcery by spinning around while holding a Sweet
 0870: Falinks

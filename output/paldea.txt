@@ -71,7 +71,7 @@
 071: Tandemaus
 072: Maushold: Evolves from Tandemaus when leveled up in battle starting at level 25
 073: Pichu
-074: Pikachu: Evolves from Pichu when leveled up with friendship 220
+074: Pikachu: Evolves from Pichu when leveled up with friendship 160
 075: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 076: Fidough
 077: Dachsbun: Evolves from Fidough starting at level 26

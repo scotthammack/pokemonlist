@@ -65,9 +65,6 @@ Known issues
   like there are some gaps in PokeAPI's data... I'm looking into what to do about this.
 * Pokemon that evolve in a specific location may show a location from a different game than expected, for similar
   reasons.
-* Pokemon that evolve with high friendship show a requirement of 160 for some Pokemon and 220 for others. I
-  believe this is supposed to depend on the generation, but this does not appear to be reflected consistently
-  in the data I'm getting from PokeAPI.
 * The evolution data for Alcremie does not go into detail on the different types of Sweets that may be held, or
   the different directions or time you can spin. I don't plan on adding this; knowing that you get an Alcremie is
   enough as far as I'm concerned. Also, the name of "Sweets" is not localized into the desired language, due to

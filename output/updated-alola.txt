@@ -22,7 +22,7 @@
 022: Spinarak
 023: Ariados: Evolves from Spinarak starting at level 22
 024: Buneary
-025: Lopunny: Evolves from Buneary when leveled up with friendship 160
+025: Lopunny: Evolves from Buneary when leveled up with friendship 220
 026: Inkay
 027: Malamar: Evolves from Inkay starting at level 30 while holding the device upside down
 028: Zorua
@@ -38,9 +38,9 @@
 038: Sudowoodo: Evolves from Bonsly when leveled up while knowing Mimic
 039: Happiny
 040: Chansey: Evolves from Happiny when leveled up while holding Oval Stone during day
-041: Blissey: Evolves from Chansey when leveled up with friendship 160
+041: Blissey: Evolves from Chansey when leveled up with friendship 220
 042: Munchlax
-043: Snorlax: Evolves from Munchlax when leveled up with friendship 160
+043: Snorlax: Evolves from Munchlax when leveled up with friendship 220
 044: Slowpoke
 045: Slowbro: Evolves from Slowpoke starting at level 37
 046: Slowking: Evolves from Slowpoke when traded while holding King’s Rock
@@ -79,7 +79,7 @@
 079: Honchkrow: Evolves from Murkrow when exposed to Dusk Stone
 080: Zubat
 081: Golbat: Evolves from Zubat starting at level 22
-082: Crobat: Evolves from Golbat when leveled up with friendship 160
+082: Crobat: Evolves from Golbat when leveled up with friendship 220
 083: Noibat
 084: Noivern: Evolves from Noibat starting at level 48
 085: Diglett
@@ -154,8 +154,8 @@
 154: Vaporeon: Evolves from Eevee when exposed to Water Stone
 155: Jolteon: Evolves from Eevee when exposed to Thunder Stone
 156: Flareon: Evolves from Eevee when exposed to Fire Stone
-157: Espeon: Evolves from Eevee when leveled up with friendship 160 during day
-158: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
+157: Espeon: Evolves from Eevee when leveled up with friendship 220 during day
+158: Umbreon: Evolves from Eevee when leveled up with friendship 220 during night
 159: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
 160: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
 161: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
@@ -165,7 +165,7 @@
 165: Mudbray
 166: Mudsdale: Evolves from Mudbray starting at level 30
 167: Igglybuff
-168: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 160
+168: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 220
 169: Wigglytuff: Evolves from Jigglypuff when exposed to Moon Stone
 170: Tauros
 171: Miltank
@@ -257,7 +257,7 @@
 257: Chinchou
 258: Lanturn: Evolves from Chinchou starting at level 27
 259: Type: Null
-260: Silvally: Evolves from Type: Null when leveled up with friendship 160
+260: Silvally: Evolves from Type: Null when leveled up with friendship 220
 261: Poipole
 262: Naganadel: Evolves from Poipole when leveled up while knowing Dragon Pulse
 263: Zygarde
@@ -270,7 +270,7 @@
 270: Skarmory
 271: Ditto
 272: Cleffa
-273: Clefairy: Evolves from Cleffa when leveled up with friendship 160
+273: Clefairy: Evolves from Cleffa when leveled up with friendship 220
 274: Clefable: Evolves from Clefairy when exposed to Moon Stone
 275: Elgyem
 276: Beheeyem: Evolves from Elgyem starting at level 42
@@ -375,7 +375,7 @@
 375: Lickitung
 376: Lickilicky: Evolves from Lickitung when leveled up while knowing Rollout
 377: Riolu
-378: Lucario: Evolves from Riolu when leveled up with friendship 160 during day
+378: Lucario: Evolves from Riolu when leveled up with friendship 220 during day
 379: Dratini
 380: Dragonair: Evolves from Dratini starting at level 30
 381: Dragonite: Evolves from Dragonair starting at level 55

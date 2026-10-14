@@ -117,7 +117,7 @@
 117: Hoothoot
 118: Noctowl: Evolves from Hoothoot starting at level 20
 119: Igglybuff
-120: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 160
+120: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 220
 121: Wigglytuff: Evolves from Jigglypuff when exposed to Moon Stone
 122: Shuppet
 123: Banette: Evolves from Shuppet starting at level 37

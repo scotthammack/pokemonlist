@@ -36,15 +36,15 @@
 036: Golem: Evolves from Graveler when traded
 037: Zubat
 038: Golbat: Evolves from Zubat starting at level 22
-039: Crobat: Evolves from Golbat when leveled up with friendship 160
+039: Crobat: Evolves from Golbat when leveled up with friendship 220
 040: Cleffa
-041: Clefairy: Evolves from Cleffa when leveled up with friendship 160
+041: Clefairy: Evolves from Cleffa when leveled up with friendship 220
 042: Clefable: Evolves from Clefairy when exposed to Moon Stone
 043: Igglybuff
-044: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 160
+044: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 220
 045: Wigglytuff: Evolves from Jigglypuff when exposed to Moon Stone
 046: Togepi
-047: Togetic: Evolves from Togepi when leveled up with friendship 160
+047: Togetic: Evolves from Togepi when leveled up with friendship 220
 048: Sandshrew
 049: Sandslash: Evolves from Sandshrew starting at level 22
 050: Ekans
@@ -185,8 +185,8 @@
 185: Vaporeon: Evolves from Eevee when exposed to Water Stone
 186: Jolteon: Evolves from Eevee when exposed to Thunder Stone
 187: Flareon: Evolves from Eevee when exposed to Fire Stone
-188: Espeon: Evolves from Eevee when leveled up with friendship 160 during day
-189: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
+188: Espeon: Evolves from Eevee when leveled up with friendship 220 during day
+189: Umbreon: Evolves from Eevee when leveled up with friendship 220 during night
 190: Horsea
 191: Seadra: Evolves from Horsea starting at level 32
 192: Kingdra: Evolves from Seadra when traded while holding Dragon Scale
@@ -220,7 +220,7 @@
 220: Porygon
 221: Porygon2: Evolves from Porygon when traded while holding Upgrade
 222: Chansey
-223: Blissey: Evolves from Chansey when leveled up with friendship 160
+223: Blissey: Evolves from Chansey when leveled up with friendship 220
 224: Lapras
 225: Omanyte
 226: Omastar: Evolves from Omanyte starting at level 40
