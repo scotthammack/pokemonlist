@@ -41,16 +41,23 @@ If you specify a dex that PokeAPI doesn't recognize, it will give you a list of 
 There are a couple of options you can define at the top of the script. Maybe I should make these accessible as
 command line parameters too. I dunno. For now, they're not, so just edit the script if you want.
 
-* **desired_language** --
+* **desired_language**
+
 	The two-letter code for the language to use for the names of Pokemon, items, and moves.
 	(I don't know how to localize the text used within the script. Again, sorry.) Default: 'en'
-* **include_number** -- 
+
+* **include_number**
+
 	Boolean for whether or not to print the Pokedex number of each Pokemon. Default: True.
-* **pad_number** --
+
+* **pad_number**
+
 	If true, the Pokedex number will be padded with leading zeroes, up to 3 digits (unless the requested
 	Pokedex includes 1000 entries or more, in which case it will be 4 digits). If include_number is False,
 	this does nothing. Default: True.
-* **include_evolution_info** --
+
+* **include_evolution_info**
+
 	Boolean for whether or not to print the evolution details for each Pokemon. If true, you'll get something
 	like "Evolves from Bulbasaur at level 16". If false, you just get the names of the Pokemon (and their
 	numbers if include_number is true). Default: True.
@@ -61,8 +68,8 @@ Known issues
   method found.
 * Pokemon that have different evolution triggers in different games may not show the correct trigger for the
   game you would expect. I am attempting to pick the most appropriate game for the specified Pokedex, but this
-  is not entirely reliable (for example, trade evolutions are still showing up in the Hisui output). It seems
-  like there are some gaps in PokeAPI's data... I'm looking into what to do about this.
+  is not entirely reliable. It seems like there are some gaps in PokeAPI's data... I'm looking into what to do
+  about this.
 * Pokemon that evolve in a specific location may show a location from a different game than expected, for similar
   reasons.
 * The evolution data for Alcremie does not go into detail on the different types of Sweets that may be held, or
@@ -71,7 +78,8 @@ Known issues
   there not being a category in PokeAPI specifically for Sweets as far as I can tell.
 * Pokemon that have multiple forms were showing up as requiring a specific form to evolve, when in fact that form
   is only required for one particular form of the evolution (example: either form of Shellos will evolve into
-  a Gastrodon of some sort, so I don't care about the forms of either). To fix this, I just made a list of
-  Pokemon whose forms I don't care about, and don't show the forms if they're in that list. This is a crappy
-  solution and I'm sure there's a better way of handling it, but I haven't thought of it yet. 
+  a Gastrodon of some sort, so I don't care about the forms of either). This should no longer be occurring, but
+  the "fix" was that I just made a list of Pokemon whose forms I don't care about, and don't show the forms if
+  they're in that list. This is a crappy solution and I'm sure there's a better way of handling it, but I haven't
+  thought of it yet. 
 * The script runs slower than it seems like it should.
