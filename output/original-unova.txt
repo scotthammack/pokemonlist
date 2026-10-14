@@ -1,0 +1,156 @@
+000: Victini
+001: Snivy
+002: Servine: Evolves from Snivy starting at level 17
+003: Serperior: Evolves from Servine starting at level 36
+004: Tepig
+005: Pignite: Evolves from Tepig starting at level 17
+006: Emboar: Evolves from Pignite starting at level 36
+007: Oshawott
+008: Dewott: Evolves from Oshawott starting at level 17
+009: Samurott: Evolves from Dewott starting at level 36
+010: Patrat
+011: Watchog: Evolves from Patrat starting at level 20
+012: Lillipup
+013: Herdier: Evolves from Lillipup starting at level 16
+014: Stoutland: Evolves from Herdier starting at level 32
+015: Purrloin
+016: Liepard: Evolves from Purrloin starting at level 20
+017: Pansage
+018: Simisage: Evolves from Pansage when exposed to Leaf Stone
+019: Pansear
+020: Simisear: Evolves from Pansear when exposed to Fire Stone
+021: Panpour
+022: Simipour: Evolves from Panpour when exposed to Water Stone
+023: Munna
+024: Musharna: Evolves from Munna when exposed to Moon Stone
+025: Pidove
+026: Tranquill: Evolves from Pidove starting at level 21
+027: Unfezant: Evolves from Tranquill starting at level 32
+028: Blitzle
+029: Zebstrika: Evolves from Blitzle starting at level 27
+030: Roggenrola
+031: Boldore: Evolves from Roggenrola starting at level 25
+032: Gigalith: Evolves from Boldore when traded
+033: Woobat
+034: Swoobat: Evolves from Woobat when leveled up with friendship 160
+035: Drilbur
+036: Excadrill: Evolves from Drilbur starting at level 31
+037: Audino
+038: Timburr
+039: Gurdurr: Evolves from Timburr starting at level 25
+040: Conkeldurr: Evolves from Gurdurr when traded
+041: Tympole
+042: Palpitoad: Evolves from Tympole starting at level 25
+043: Seismitoad: Evolves from Palpitoad starting at level 36
+044: Throh
+045: Sawk
+046: Sewaddle
+047: Swadloon: Evolves from Sewaddle starting at level 20
+048: Leavanny: Evolves from Swadloon when leveled up with friendship 220
+049: Venipede
+050: Whirlipede: Evolves from Venipede starting at level 22
+051: Scolipede: Evolves from Whirlipede starting at level 30
+052: Cottonee
+053: Whimsicott: Evolves from Cottonee when exposed to Sun Stone
+054: Petilil
+055: Lilligant: Evolves from Petilil when exposed to Sun Stone
+056: Basculin
+057: Sandile
+058: Krokorok: Evolves from Sandile starting at level 29
+059: Krookodile: Evolves from Krokorok starting at level 40
+060: Darumaka
+061: Darmanitan: Evolves from Darumaka starting at level 35
+062: Maractus
+063: Dwebble
+064: Crustle: Evolves from Dwebble starting at level 34
+065: Scraggy
+066: Scrafty: Evolves from Scraggy starting at level 39
+067: Sigilyph
+068: Yamask
+069: Cofagrigus: Evolves from Yamask starting at level 34
+070: Tirtouga
+071: Carracosta: Evolves from Tirtouga starting at level 37
+072: Archen
+073: Archeops: Evolves from Archen starting at level 37
+074: Trubbish
+075: Garbodor: Evolves from Trubbish starting at level 36
+076: Zorua
+077: Zoroark: Evolves from Zorua starting at level 30
+078: Minccino
+079: Cinccino: Evolves from Minccino when exposed to Shiny Stone
+080: Gothita
+081: Gothorita: Evolves from Gothita starting at level 32
+082: Gothitelle: Evolves from Gothorita starting at level 41
+083: Solosis
+084: Duosion: Evolves from Solosis starting at level 32
+085: Reuniclus: Evolves from Duosion starting at level 41
+086: Ducklett
+087: Swanna: Evolves from Ducklett starting at level 35
+088: Vanillite
+089: Vanillish: Evolves from Vanillite starting at level 35
+090: Vanilluxe: Evolves from Vanillish starting at level 47
+091: Deerling
+092: Sawsbuck: Evolves from Deerling starting at level 34
+093: Emolga
+094: Karrablast
+095: Escavalier: Evolves from Karrablast when traded
+096: Foongus
+097: Amoonguss: Evolves from Foongus starting at level 39
+098: Frillish
+099: Jellicent: Evolves from Frillish starting at level 40
+100: Alomomola
+101: Joltik
+102: Galvantula: Evolves from Joltik starting at level 36
+103: Ferroseed
+104: Ferrothorn: Evolves from Ferroseed starting at level 40
+105: Klink
+106: Klang: Evolves from Klink starting at level 38
+107: Klinklang: Evolves from Klang starting at level 49
+108: Tynamo
+109: Eelektrik: Evolves from Tynamo starting at level 39
+110: Eelektross: Evolves from Eelektrik when exposed to Thunder Stone
+111: Elgyem
+112: Beheeyem: Evolves from Elgyem starting at level 42
+113: Litwick
+114: Lampent: Evolves from Litwick starting at level 41
+115: Chandelure: Evolves from Lampent when exposed to Dusk Stone
+116: Axew
+117: Fraxure: Evolves from Axew starting at level 38
+118: Haxorus: Evolves from Fraxure starting at level 48
+119: Cubchoo
+120: Beartic: Evolves from Cubchoo starting at level 37
+121: Cryogonal
+122: Shelmet
+123: Accelgor: Evolves from Shelmet when traded
+124: Stunfisk
+125: Mienfoo
+126: Mienshao: Evolves from Mienfoo starting at level 50
+127: Druddigon
+128: Golett
+129: Golurk: Evolves from Golett starting at level 43
+130: Pawniard
+131: Bisharp: Evolves from Pawniard starting at level 52
+132: Bouffalant
+133: Rufflet
+134: Braviary: Evolves from Rufflet starting at level 54
+135: Vullaby
+136: Mandibuzz: Evolves from Vullaby starting at level 54
+137: Heatmor
+138: Durant
+139: Deino
+140: Zweilous: Evolves from Deino starting at level 50
+141: Hydreigon: Evolves from Zweilous starting at level 64
+142: Larvesta
+143: Volcarona: Evolves from Larvesta starting at level 59
+144: Cobalion
+145: Terrakion
+146: Virizion
+147: Tornadus
+148: Thundurus
+149: Reshiram
+150: Zekrom
+151: Landorus
+152: Kyurem
+153: Keldeo
+154: Meloetta
+155: Genesect

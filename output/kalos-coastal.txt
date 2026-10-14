@@ -1,79 +1,79 @@
 001: Drifloon
-002: Drifblim: Evolves from Drifloon at level 28
+002: Drifblim: Evolves from Drifloon starting at level 28
 003: Mienfoo
-004: Mienshao: Evolves from Mienfoo at level 50
+004: Mienshao: Evolves from Mienfoo starting at level 50
 005: Zangoose
 006: Seviper
 007: Spoink
-008: Grumpig: Evolves from Spoink at level 32
+008: Grumpig: Evolves from Spoink starting at level 32
 009: Absol
 010: Inkay
-011: Malamar: Evolves from Inkay at level 30 while holding the device upside down
+011: Malamar: Evolves from Inkay starting at level 30 while holding the device upside down
 012: Lunatone
 013: Solrock
 014: Bagon
-015: Shelgon: Evolves from Bagon at level 30
-016: Salamence: Evolves from Shelgon at level 50
+015: Shelgon: Evolves from Bagon starting at level 30
+016: Salamence: Evolves from Shelgon starting at level 50
 017: Wingull
-018: Pelipper: Evolves from Wingull at level 25
+018: Pelipper: Evolves from Wingull starting at level 25
 019: Taillow
-020: Swellow: Evolves from Taillow at level 22
+020: Swellow: Evolves from Taillow starting at level 22
 021: Binacle
-022: Barbaracle: Evolves from Binacle at level 39
+022: Barbaracle: Evolves from Binacle starting at level 39
 023: Dwebble
-024: Crustle: Evolves from Dwebble at level 34
+024: Crustle: Evolves from Dwebble starting at level 34
 025: Tentacool
-026: Tentacruel: Evolves from Tentacool at level 30
+026: Tentacruel: Evolves from Tentacool starting at level 30
 027: Wailmer
-028: Wailord: Evolves from Wailmer at level 40
+028: Wailord: Evolves from Wailmer starting at level 40
 029: Luvdisc
 030: Skrelp
-031: Dragalge: Evolves from Skrelp at level 48
+031: Dragalge: Evolves from Skrelp starting at level 48
 032: Clauncher
-033: Clawitzer: Evolves from Clauncher at level 37
+033: Clawitzer: Evolves from Clauncher starting at level 37
 034: Staryu
 035: Starmie: Evolves from Staryu when exposed to Water Stone
 036: Shellder
 037: Cloyster: Evolves from Shellder when exposed to Water Stone
 038: Qwilfish
 039: Horsea
-040: Seadra: Evolves from Horsea at level 32
+040: Seadra: Evolves from Horsea starting at level 32
 041: Kingdra: Evolves from Seadra when traded while holding Dragon Scale
 042: Relicanth
 043: Sandile
-044: Krokorok: Evolves from Sandile at level 29
-045: Krookodile: Evolves from Krokorok at level 40
+044: Krokorok: Evolves from Sandile starting at level 29
+045: Krookodile: Evolves from Krokorok starting at level 40
 046: Helioptile
 047: Heliolisk: Evolves from Helioptile when exposed to Sun Stone
 048: Hippopotas
-049: Hippowdon: Evolves from Hippopotas at level 34
+049: Hippowdon: Evolves from Hippopotas starting at level 34
 050: Rhyhorn
-051: Rhydon: Evolves from Rhyhorn at level 42
+051: Rhydon: Evolves from Rhyhorn starting at level 42
 052: Rhyperior: Evolves from Rhydon when traded while holding Protector
 053: Onix
 054: Steelix: Evolves from Onix when traded while holding Metal Coat
 055: Woobat
 056: Swoobat: Evolves from Woobat when leveled up with friendship 160
 057: Machop
-058: Machoke: Evolves from Machop at level 28
+058: Machoke: Evolves from Machop starting at level 28
 059: Machamp: Evolves from Machoke when traded
 060: Cubone
-061: Marowak: Evolves from Cubone at level 28
+061: Marowak: Evolves from Cubone starting at level 28
 062: Kangaskhan
 063: Mawile
 064: Tyrunt
-065: Tyrantrum: Evolves from Tyrunt at level 39 during day
+065: Tyrantrum: Evolves from Tyrunt starting at level 39 during day
 066: Amaura
-067: Aurorus: Evolves from Amaura at level 39 during night
+067: Aurorus: Evolves from Amaura starting at level 39 during night
 068: Aerodactyl
 069: Ferroseed
-070: Ferrothorn: Evolves from Ferroseed at level 40
+070: Ferrothorn: Evolves from Ferroseed starting at level 40
 071: Snubbull
-072: Granbull: Evolves from Snubbull at level 23
+072: Granbull: Evolves from Snubbull starting at level 23
 073: Electrike
-074: Manectric: Evolves from Electrike at level 26
+074: Manectric: Evolves from Electrike starting at level 26
 075: Houndour
-076: Houndoom: Evolves from Houndour at level 24
+076: Houndoom: Evolves from Houndour starting at level 24
 077: Eevee
 078: Vaporeon: Evolves from Eevee when exposed to Water Stone
 079: Jolteon: Evolves from Eevee when exposed to Thunder Stone
@@ -89,23 +89,23 @@
 089: Hawlucha
 090: Sigilyph
 091: Golett
-092: Golurk: Evolves from Golett at level 43
+092: Golurk: Evolves from Golett starting at level 43
 093: Nosepass
 094: Probopass: Evolves from Nosepass when leveled up at Mt. Coronet
 095: Makuhita
-096: Hariyama: Evolves from Makuhita at level 24
+096: Hariyama: Evolves from Makuhita starting at level 24
 097: Throh
 098: Sawk
 099: Starly
-100: Staravia: Evolves from Starly at level 14
-101: Staraptor: Evolves from Staravia at level 34
+100: Staravia: Evolves from Starly starting at level 14
+101: Staraptor: Evolves from Staravia starting at level 34
 102: Stunky
-103: Skuntank: Evolves from Stunky at level 34
+103: Skuntank: Evolves from Stunky starting at level 34
 104: Nidoran♀
-105: Nidorina: Evolves from Nidoran♀ at level 16
+105: Nidorina: Evolves from Nidoran♀ starting at level 16
 106: Nidoqueen: Evolves from Nidorina when exposed to Moon Stone
 107: Nidoran♂
-108: Nidorino: Evolves from Nidoran♂ at level 16
+108: Nidorino: Evolves from Nidoran♂ starting at level 16
 109: Nidoking: Evolves from Nidorino when exposed to Moon Stone
 110: Dedenne
 111: Chingling
@@ -113,25 +113,25 @@
 113: Mime Jr.
 114: Mr. Mime: Evolves from Mime Jr. when leveled up while knowing Mimic
 115: Solosis
-116: Duosion: Evolves from Solosis at level 32
-117: Reuniclus: Evolves from Duosion at level 41
+116: Duosion: Evolves from Solosis starting at level 32
+117: Reuniclus: Evolves from Duosion starting at level 41
 118: Wynaut
-119: Wobbuffet: Evolves from Wynaut at level 15
+119: Wobbuffet: Evolves from Wynaut starting at level 15
 120: Roggenrola
-121: Boldore: Evolves from Roggenrola at level 25
+121: Boldore: Evolves from Roggenrola starting at level 25
 122: Gigalith: Evolves from Boldore when traded
 123: Sableye
 124: Carbink
 125: Tauros
 126: Miltank
 127: Mareep
-128: Flaaffy: Evolves from Mareep at level 15
-129: Ampharos: Evolves from Flaaffy at level 30
+128: Flaaffy: Evolves from Mareep starting at level 15
+129: Ampharos: Evolves from Flaaffy starting at level 30
 130: Pinsir
 131: Heracross
 132: Pachirisu
 133: Slowpoke
-134: Slowbro: Evolves from Slowpoke at level 37
+134: Slowbro: Evolves from Slowpoke starting at level 37
 135: Slowking: Evolves from Slowpoke when traded while holding King’s Rock
 136: Exeggcute
 137: Exeggutor: Evolves from Exeggcute when exposed to Leaf Stone
@@ -142,10 +142,10 @@
 142: Huntail: Evolves from Clamperl when traded while holding Deep Sea Tooth
 143: Gorebyss: Evolves from Clamperl when traded while holding Deep Sea Scale
 144: Remoraid
-145: Octillery: Evolves from Remoraid at level 25
+145: Octillery: Evolves from Remoraid starting at level 25
 146: Corsola
 147: Chinchou
-148: Lanturn: Evolves from Chinchou at level 27
+148: Lanturn: Evolves from Chinchou starting at level 27
 149: Alomomola
 150: Lapras
 151: Articuno

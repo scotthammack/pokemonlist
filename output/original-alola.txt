@@ -1,31 +1,31 @@
 001: Rowlet
-002: Dartrix: Evolves from Rowlet at level 17
-003: Decidueye: Evolves from Dartrix at level 34
+002: Dartrix: Evolves from Rowlet starting at level 17
+003: Decidueye: Evolves from Dartrix starting at level 34
 004: Litten
-005: Torracat: Evolves from Litten at level 17
-006: Incineroar: Evolves from Torracat at level 34
+005: Torracat: Evolves from Litten starting at level 17
+006: Incineroar: Evolves from Torracat starting at level 34
 007: Popplio
-008: Brionne: Evolves from Popplio at level 17
-009: Primarina: Evolves from Brionne at level 34
+008: Brionne: Evolves from Popplio starting at level 17
+009: Primarina: Evolves from Brionne starting at level 34
 010: Pikipek
-011: Trumbeak: Evolves from Pikipek at level 14
-012: Toucannon: Evolves from Trumbeak at level 28
+011: Trumbeak: Evolves from Pikipek starting at level 14
+012: Toucannon: Evolves from Trumbeak starting at level 28
 013: Yungoos
-014: Gumshoos: Evolves from Yungoos at level 20 during day
+014: Gumshoos: Evolves from Yungoos starting at level 20 during day
 015: Rattata
-016: Raticate: Evolves from Rattata at level 20
+016: Raticate: Evolves from Rattata starting at level 20
 017: Caterpie
-018: Metapod: Evolves from Caterpie at level 7
-019: Butterfree: Evolves from Metapod at level 10
+018: Metapod: Evolves from Caterpie starting at level 7
+019: Butterfree: Evolves from Metapod starting at level 10
 020: Ledyba
-021: Ledian: Evolves from Ledyba at level 18
+021: Ledian: Evolves from Ledyba starting at level 18
 022: Spinarak
-023: Ariados: Evolves from Spinarak at level 22
+023: Ariados: Evolves from Spinarak starting at level 22
 024: Pichu
 025: Pikachu: Evolves from Pichu when leveled up with friendship 220
 026: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 027: Grubbin
-028: Charjabug: Evolves from Grubbin at level 20
+028: Charjabug: Evolves from Grubbin starting at level 20
 029: Vikavolt: Evolves from Charjabug when leveled up at Vast Poni Canyon
 030: Bonsly
 031: Sudowoodo: Evolves from Bonsly when leveled up while knowing Mimic
@@ -35,91 +35,91 @@
 035: Munchlax
 036: Snorlax: Evolves from Munchlax when leveled up with friendship 160
 037: Slowpoke
-038: Slowbro: Evolves from Slowpoke at level 37
+038: Slowbro: Evolves from Slowpoke starting at level 37
 039: Slowking: Evolves from Slowpoke when traded while holding King’s Rock
 040: Wingull
-041: Pelipper: Evolves from Wingull at level 25
+041: Pelipper: Evolves from Wingull starting at level 25
 042: Abra
-043: Kadabra: Evolves from Abra at level 16
+043: Kadabra: Evolves from Abra starting at level 16
 044: Alakazam: Evolves from Kadabra when traded
 045: Meowth
-046: Persian: Evolves from Meowth at level 28
+046: Persian: Evolves from Meowth starting at level 28
 047: Magnemite
-048: Magneton: Evolves from Magnemite at level 30
+048: Magneton: Evolves from Magnemite starting at level 30
 049: Magnezone: Evolves from Magneton when leveled up at Mt. Coronet
 050: Grimer
-051: Muk: Evolves from Grimer at level 38
+051: Muk: Evolves from Grimer starting at level 38
 052: Growlithe
 053: Arcanine: Evolves from Growlithe when exposed to Fire Stone
 054: Drowzee
-055: Hypno: Evolves from Drowzee at level 26
+055: Hypno: Evolves from Drowzee starting at level 26
 056: Makuhita
-057: Hariyama: Evolves from Makuhita at level 24
+057: Hariyama: Evolves from Makuhita starting at level 24
 058: Smeargle
 059: Crabrawler
 060: Crabominable: Evolves from Crabrawler when leveled up at Mount Lanakila
 061: Gastly
-062: Haunter: Evolves from Gastly at level 25
+062: Haunter: Evolves from Gastly starting at level 25
 063: Gengar: Evolves from Haunter when traded
 064: Drifloon
-065: Drifblim: Evolves from Drifloon at level 28
+065: Drifblim: Evolves from Drifloon starting at level 28
 066: Misdreavus
 067: Mismagius: Evolves from Misdreavus when exposed to Dusk Stone
 068: Zubat
-069: Golbat: Evolves from Zubat at level 22
+069: Golbat: Evolves from Zubat starting at level 22
 070: Crobat: Evolves from Golbat when leveled up with friendship 160
 071: Diglett
-072: Dugtrio: Evolves from Diglett at level 26
+072: Dugtrio: Evolves from Diglett starting at level 26
 073: Spearow
-074: Fearow: Evolves from Spearow at level 20
+074: Fearow: Evolves from Spearow starting at level 20
 075: Rufflet
-076: Braviary: Evolves from Rufflet at level 54
+076: Braviary: Evolves from Rufflet starting at level 54
 077: Vullaby
-078: Mandibuzz: Evolves from Vullaby at level 54
+078: Mandibuzz: Evolves from Vullaby starting at level 54
 079: Mankey
-080: Primeape: Evolves from Mankey at level 28
+080: Primeape: Evolves from Mankey starting at level 28
 081: Delibird
 082: Oricorio
 083: Cutiefly
-084: Ribombee: Evolves from Cutiefly at level 25
+084: Ribombee: Evolves from Cutiefly starting at level 25
 085: Petilil
 086: Lilligant: Evolves from Petilil when exposed to Sun Stone
 087: Cottonee
 088: Whimsicott: Evolves from Cottonee when exposed to Sun Stone
 089: Psyduck
-090: Golduck: Evolves from Psyduck at level 33
+090: Golduck: Evolves from Psyduck starting at level 33
 091: Magikarp
-092: Gyarados: Evolves from Magikarp at level 20
+092: Gyarados: Evolves from Magikarp starting at level 20
 093: Barboach
-094: Whiscash: Evolves from Barboach at level 30
+094: Whiscash: Evolves from Barboach starting at level 30
 095: Machop
-096: Machoke: Evolves from Machop at level 28
+096: Machoke: Evolves from Machop starting at level 28
 097: Machamp: Evolves from Machoke when traded
 098: Roggenrola
-099: Boldore: Evolves from Roggenrola at level 25
+099: Boldore: Evolves from Roggenrola starting at level 25
 100: Gigalith: Evolves from Boldore when traded
 101: Carbink
 102: Sableye
 103: Rockruff
-104: Lycanroc: Evolves from Rockruff at level 25 during day
+104: Lycanroc: Evolves from Rockruff starting at level 25 during day
 105: Spinda
 106: Tentacool
-107: Tentacruel: Evolves from Tentacool at level 30
+107: Tentacruel: Evolves from Tentacool starting at level 30
 108: Finneon
-109: Lumineon: Evolves from Finneon at level 31
+109: Lumineon: Evolves from Finneon starting at level 31
 110: Wishiwashi
 111: Luvdisc
 112: Corsola
 113: Mareanie
-114: Toxapex: Evolves from Mareanie at level 38
+114: Toxapex: Evolves from Mareanie starting at level 38
 115: Shellder
 116: Cloyster: Evolves from Shellder when exposed to Water Stone
 117: Bagon
-118: Shelgon: Evolves from Bagon at level 30
-119: Salamence: Evolves from Shelgon at level 50
+118: Shelgon: Evolves from Bagon starting at level 30
+119: Salamence: Evolves from Shelgon starting at level 50
 120: Lillipup
-121: Herdier: Evolves from Lillipup at level 16
-122: Stoutland: Evolves from Herdier at level 32
+121: Herdier: Evolves from Lillipup starting at level 16
+122: Stoutland: Evolves from Herdier starting at level 32
 123: Eevee
 124: Vaporeon: Evolves from Eevee when exposed to Water Stone
 125: Jolteon: Evolves from Eevee when exposed to Thunder Stone
@@ -130,81 +130,81 @@
 130: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
 131: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
 132: Mudbray
-133: Mudsdale: Evolves from Mudbray at level 30
+133: Mudsdale: Evolves from Mudbray starting at level 30
 134: Igglybuff
 135: Jigglypuff: Evolves from Igglybuff when leveled up with friendship 160
 136: Wigglytuff: Evolves from Jigglypuff when exposed to Moon Stone
 137: Tauros
 138: Miltank
 139: Surskit
-140: Masquerain: Evolves from Surskit at level 22
+140: Masquerain: Evolves from Surskit starting at level 22
 141: Dewpider
-142: Araquanid: Evolves from Dewpider at level 22
+142: Araquanid: Evolves from Dewpider starting at level 22
 143: Fomantis
-144: Lurantis: Evolves from Fomantis at level 34 during day
+144: Lurantis: Evolves from Fomantis starting at level 34 during day
 145: Morelull
-146: Shiinotic: Evolves from Morelull at level 24
+146: Shiinotic: Evolves from Morelull starting at level 24
 147: Paras
-148: Parasect: Evolves from Paras at level 24
+148: Parasect: Evolves from Paras starting at level 24
 149: Poliwag
-150: Poliwhirl: Evolves from Poliwag at level 25
+150: Poliwhirl: Evolves from Poliwag starting at level 25
 151: Poliwrath: Evolves from Poliwhirl when exposed to Water Stone
 152: Politoed: Evolves from Poliwhirl when traded while holding King’s Rock
 153: Goldeen
-154: Seaking: Evolves from Goldeen at level 33
+154: Seaking: Evolves from Goldeen starting at level 33
 155: Feebas
 156: Milotic: Evolves from Feebas when leveled up with beauty 170
 157: Alomomola
 158: Fletchling
-159: Fletchinder: Evolves from Fletchling at level 17
-160: Talonflame: Evolves from Fletchinder at level 35
+159: Fletchinder: Evolves from Fletchling starting at level 17
+160: Talonflame: Evolves from Fletchinder starting at level 35
 161: Salandit
-162: Salazzle: Evolves from Salandit at level 33 (female only)
+162: Salazzle: Evolves from Salandit starting at level 33 (female only)
 163: Cubone
-164: Marowak: Evolves from Cubone at level 28
+164: Marowak: Evolves from Cubone starting at level 28
 165: Kangaskhan
 166: Magby
-167: Magmar: Evolves from Magby at level 30
+167: Magmar: Evolves from Magby starting at level 30
 168: Magmortar: Evolves from Magmar when traded while holding Magmarizer
 169: Stufful
-170: Bewear: Evolves from Stufful at level 27
+170: Bewear: Evolves from Stufful starting at level 27
 171: Bounsweet
-172: Steenee: Evolves from Bounsweet at level 18
+172: Steenee: Evolves from Bounsweet starting at level 18
 173: Tsareena: Evolves from Steenee when leveled up while knowing Stomp
 174: Comfey
 175: Pinsir
 176: Oranguru
 177: Passimian
 178: Goomy
-179: Sliggoo: Evolves from Goomy at level 40
-180: Goodra: Evolves from Sliggoo at level 50 in rain
+179: Sliggoo: Evolves from Goomy starting at level 40
+180: Goodra: Evolves from Sliggoo starting at level 50 in rain
 181: Castform
 182: Wimpod
-183: Golisopod: Evolves from Wimpod at level 30
+183: Golisopod: Evolves from Wimpod starting at level 30
 184: Staryu
 185: Starmie: Evolves from Staryu when exposed to Water Stone
 186: Sandygast
-187: Palossand: Evolves from Sandygast at level 42
+187: Palossand: Evolves from Sandygast starting at level 42
 188: Cranidos
-189: Rampardos: Evolves from Cranidos at level 30
+189: Rampardos: Evolves from Cranidos starting at level 30
 190: Shieldon
-191: Bastiodon: Evolves from Shieldon at level 30
+191: Bastiodon: Evolves from Shieldon starting at level 30
 192: Archen
-193: Archeops: Evolves from Archen at level 37
+193: Archeops: Evolves from Archen starting at level 37
 194: Tirtouga
-195: Carracosta: Evolves from Tirtouga at level 37
+195: Carracosta: Evolves from Tirtouga starting at level 37
 196: Phantump
 197: Trevenant: Evolves from Phantump when traded
 198: Nosepass
 199: Probopass: Evolves from Nosepass when leveled up at Mt. Coronet
 200: Pyukumuku
 201: Chinchou
-202: Lanturn: Evolves from Chinchou at level 27
+202: Lanturn: Evolves from Chinchou starting at level 27
 203: Type: Null
 204: Silvally: Evolves from Type: Null when leveled up with friendship 160
 205: Zygarde
 206: Trubbish
-207: Garbodor: Evolves from Trubbish at level 36
+207: Garbodor: Evolves from Trubbish starting at level 36
 208: Skarmory
 209: Ditto
 210: Cleffa
@@ -212,65 +212,65 @@
 212: Clefable: Evolves from Clefairy when exposed to Moon Stone
 213: Minior
 214: Beldum
-215: Metang: Evolves from Beldum at level 20
-216: Metagross: Evolves from Metang at level 45
+215: Metang: Evolves from Beldum starting at level 20
+216: Metagross: Evolves from Metang starting at level 45
 217: Porygon
 218: Porygon2: Evolves from Porygon when traded while holding Upgrade
 219: Porygon-Z: Evolves from Porygon2 when traded while holding Dubious Disc
 220: Pancham
-221: Pangoro: Evolves from Pancham at level 32 with a Dark-type Pokemon in the party
+221: Pangoro: Evolves from Pancham starting at level 32 with a Dark-type Pokemon in the party
 222: Komala
 223: Torkoal
 224: Turtonator
 225: Togedemaru
 226: Elekid
-227: Electabuzz: Evolves from Elekid at level 30
+227: Electabuzz: Evolves from Elekid starting at level 30
 228: Electivire: Evolves from Electabuzz when traded while holding Electirizer
 229: Geodude
-230: Graveler: Evolves from Geodude at level 25
+230: Graveler: Evolves from Geodude starting at level 25
 231: Golem: Evolves from Graveler when traded
 232: Sandile
-233: Krokorok: Evolves from Sandile at level 29
-234: Krookodile: Evolves from Krokorok at level 40
+233: Krokorok: Evolves from Sandile starting at level 29
+234: Krookodile: Evolves from Krokorok starting at level 40
 235: Trapinch
-236: Vibrava: Evolves from Trapinch at level 35
-237: Flygon: Evolves from Vibrava at level 45
+236: Vibrava: Evolves from Trapinch starting at level 35
+237: Flygon: Evolves from Vibrava starting at level 45
 238: Gible
-239: Gabite: Evolves from Gible at level 24
-240: Garchomp: Evolves from Gabite at level 48
+239: Gabite: Evolves from Gible starting at level 24
+240: Garchomp: Evolves from Gabite starting at level 48
 241: Klefki
 242: Mimikyu
 243: Bruxish
 244: Drampa
 245: Absol
 246: Snorunt
-247: Glalie: Evolves from Snorunt at level 42
+247: Glalie: Evolves from Snorunt starting at level 42
 248: Froslass: Evolves from Snorunt when exposed to Dawn Stone (female only)
 249: Sneasel
 250: Weavile: Evolves from Sneasel when leveled up while holding Razor Claw during night
 251: Sandshrew
-252: Sandslash: Evolves from Sandshrew at level 22
+252: Sandslash: Evolves from Sandshrew starting at level 22
 253: Vulpix
 254: Ninetales: Evolves from Vulpix when exposed to Fire Stone
 255: Vanillite
-256: Vanillish: Evolves from Vanillite at level 35
-257: Vanilluxe: Evolves from Vanillish at level 47
+256: Vanillish: Evolves from Vanillite starting at level 35
+257: Vanilluxe: Evolves from Vanillish starting at level 47
 258: Snubbull
-259: Granbull: Evolves from Snubbull at level 23
+259: Granbull: Evolves from Snubbull starting at level 23
 260: Shellos
-261: Gastrodon: Evolves from Shellos at level 30
+261: Gastrodon: Evolves from Shellos starting at level 30
 262: Relicanth
 263: Dhelmise
 264: Carvanha
-265: Sharpedo: Evolves from Carvanha at level 30
+265: Sharpedo: Evolves from Carvanha starting at level 30
 266: Wailmer
-267: Wailord: Evolves from Wailmer at level 40
+267: Wailord: Evolves from Wailmer starting at level 40
 268: Lapras
 269: Exeggcute
 270: Exeggutor: Evolves from Exeggcute when exposed to Leaf Stone
 271: Jangmo-o
-272: Hakamo-o: Evolves from Jangmo-o at level 35
-273: Kommo-o: Evolves from Hakamo-o at level 45
+272: Hakamo-o: Evolves from Jangmo-o starting at level 35
+273: Kommo-o: Evolves from Hakamo-o starting at level 45
 274: Emolga
 275: Scyther
 276: Scizor: Evolves from Scyther when traded while holding Metal Coat
@@ -279,17 +279,17 @@
 279: Riolu
 280: Lucario: Evolves from Riolu when leveled up with friendship 160 during day
 281: Dratini
-282: Dragonair: Evolves from Dratini at level 30
-283: Dragonite: Evolves from Dragonair at level 55
+282: Dragonair: Evolves from Dratini starting at level 30
+283: Dragonite: Evolves from Dragonair starting at level 55
 284: Aerodactyl
 285: Tapu Koko
 286: Tapu Lele
 287: Tapu Bulu
 288: Tapu Fini
 289: Cosmog
-290: Cosmoem: Evolves from Cosmog at level 43
-291: Solgaleo: Evolves from Cosmoem at level 53
-292: Lunala: Evolves from Cosmoem at level 53
+290: Cosmoem: Evolves from Cosmog starting at level 43
+291: Solgaleo: Evolves from Cosmoem starting at level 53
+292: Lunala: Evolves from Cosmoem starting at level 53
 293: Nihilego
 294: Buzzwole
 295: Pheromosa
