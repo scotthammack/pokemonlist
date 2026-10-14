@@ -18,7 +18,7 @@ PokeAPI too hard, but if it does, sorry! Please tell me how to fix it!
 
 Oh yeah, also, the pokebase library is currently unmaintained and I did run into one issue where the API
 had an endpoint that wasn't accounted for in the library, so I had to go into my local copy of it and add
-that endpoint to a list somewhere to get it to work. But I don't remember what it was. Sorry again!
+that endpoint to a list somewhere to get it to work. I believe the endpoint was "evolution-variable".
 
 As I write this, I'm seeing that there are other PokeAPI wrapper libraries for Python that are actually
 being maintained, so maybe I'll eventually update this to use one of those instead. I just used the first
