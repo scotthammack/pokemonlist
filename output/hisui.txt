@@ -45,7 +45,7 @@
 045: Mothim: Evolves from Burmy starting at level 20 (male only)
 046: Geodude
 047: Graveler: Evolves from Geodude starting at level 25
-048: Golem: Evolves from Graveler when traded
+048: Golem: Evolves from Graveler when exposed to Linking Cord
 049: Stantler
 050: Wyrdeer: Evolves from Stantler after using Psyshield Bash in the agile style 20 times
 051: Munchlax
@@ -57,7 +57,7 @@
 057: Raichu: Evolves from Pikachu when exposed to Thunder Stone
 058: Abra
 059: Kadabra: Evolves from Abra starting at level 16
-060: Alakazam: Evolves from Kadabra when traded
+060: Alakazam: Evolves from Kadabra when exposed to Linking Cord
 061: Chimchar
 062: Monferno: Evolves from Chimchar starting at level 14
 063: Infernape: Evolves from Monferno starting at level 36
@@ -71,7 +71,7 @@
 071: Vespiquen: Evolves from Combee starting at level 21 (female only)
 072: Scyther
 073: Kleavor: Evolves from Scyther when exposed to Black Augurite
-074: Scizor: Evolves from Scyther when traded while holding Metal Coat
+074: Scizor: Evolves from Scyther when exposed to Metal Coat
 075: Heracross
 076: Mime Jr.
 077: Mr. Mime: Evolves from Mime Jr. when leveled up while knowing Mimic
@@ -116,10 +116,10 @@
 116: Sliggoo: Evolves from Goomy starting at level 40
 117: Goodra: Evolves from Sliggoo (Hisuian Form) starting at level 50 in rain
 118: Onix
-119: Steelix: Evolves from Onix when traded while holding Metal Coat
+119: Steelix: Evolves from Onix when exposed to Metal Coat
 120: Rhyhorn
 121: Rhydon: Evolves from Rhyhorn starting at level 42
-122: Rhyperior: Evolves from Rhydon when traded while holding Protector
+122: Rhyperior: Evolves from Rhydon when exposed to Protector
 123: Bonsly
 124: Sudowoodo: Evolves from Bonsly when leveled up while knowing Mimic
 125: Lickitung
@@ -131,11 +131,11 @@
 131: Grotle: Evolves from Turtwig starting at level 18
 132: Torterra: Evolves from Grotle starting at level 32
 133: Porygon
-134: Porygon2: Evolves from Porygon when traded while holding Upgrade
-135: Porygon-Z: Evolves from Porygon2 when traded while holding Dubious Disc
+134: Porygon2: Evolves from Porygon when exposed to Upgrade
+135: Porygon-Z: Evolves from Porygon2 when exposed to Dubious Disc
 136: Gastly
 137: Haunter: Evolves from Gastly starting at level 25
-138: Gengar: Evolves from Haunter when traded
+138: Gengar: Evolves from Haunter when exposed to Linking Cord
 139: Spiritomb
 140: Murkrow
 141: Honchkrow: Evolves from Murkrow when exposed to Dusk Stone
@@ -153,11 +153,11 @@
 153: Purugly: Evolves from Glameow starting at level 38
 154: Machop
 155: Machoke: Evolves from Machop starting at level 28
-156: Machamp: Evolves from Machoke when traded
+156: Machamp: Evolves from Machoke when exposed to Linking Cord
 157: Chatot
 158: Duskull
 159: Dusclops: Evolves from Duskull starting at level 37
-160: Dusknoir: Evolves from Dusclops when traded while holding Reaper Cloth
+160: Dusknoir: Evolves from Dusclops when exposed to Reaper Cloth
 161: Piplup
 162: Prinplup: Evolves from Piplup starting at level 16
 163: Empoleon: Evolves from Prinplup starting at level 36
@@ -173,7 +173,7 @@
 173: Lumineon: Evolves from Finneon starting at level 31
 174: Magby
 175: Magmar: Evolves from Magby starting at level 30
-176: Magmortar: Evolves from Magmar when traded while holding Magmarizer
+176: Magmortar: Evolves from Magmar when exposed to Magmarizer
 177: Magnemite
 178: Magneton: Evolves from Magnemite starting at level 30
 179: Magnezone: Evolves from Magneton when leveled up at Mt. Coronet
@@ -181,7 +181,7 @@
 181: Bronzong: Evolves from Bronzor starting at level 33
 182: Elekid
 183: Electabuzz: Evolves from Elekid starting at level 30
-184: Electivire: Evolves from Electabuzz when traded while holding Electirizer
+184: Electivire: Evolves from Electabuzz when exposed to Electirizer
 185: Gligar
 186: Gliscor: Evolves from Gligar when leveled up while holding Razor Fang during night
 187: Gible

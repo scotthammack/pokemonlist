@@ -20,6 +20,7 @@ ignore_forms_list = ['burmy', 'shellos', 'deerling', 'flabebe', 'floette', 'pump
 if len(sys.argv) > 1:
 	desired_dex = sys.argv[1]
 dex = pb.APIResource('pokedex', desired_dex)
+version_group_list = pb.APIResourceList('version-group')
 
 try:
 	dex.id
@@ -74,13 +75,24 @@ def dex_get_gen(dex):
 				if gen_group.name == group.name:
 					return gen
 
+# This is not used... yet
+#def find_closest_version_group(requested_group):
+#	closest_order = 0
+#	closest_group = None
+#	for item in version_group_list:
+#		group = pb.APIResource('version-group', item['name'])
+#		if group.order > closest_order and group.order <= requested_group.order:
+#			closest_order = group.order
+#			closest_group = group
+#	return closest_group
+
 def find_best_details_index(details):
 	for x in range(0, len(details)):
 		for vg in dex.version_groups:
 			debug_print("Checking " + details[x].version_group.name + " against " + vg.name)
 			if details[x].version_group.name == vg.name:
 				return x
-	debug_print("No matching details found. Using default")
+	debug_print("No matching details found. Using default group")
 	return 0
 
 def get_evolution_info(species_name):
@@ -109,7 +121,17 @@ def get_evolution_info(species_name):
 			elif details[index].trigger.name == 'use-item':
 				txt = txt + " when exposed to " + get_name(details[index].item, desired_language)
 			elif details[index].trigger.name == 'trade':
-				txt = txt + " when traded"
+				# In Legends Arceus, evolutions that are normally trade evolutions are done using
+				# either the item the Pokemon would normally need to hold during the trade, or if
+				# none, a Linking Cord. PokeAPI does not treat these as a separate evolution
+				# trigger, so we have to do it ourselves.
+				if dex.name == 'hisui':
+					if not details[index].held_item:
+						txt = txt + " when exposed to " + get_name(pb.APIResource('item', 'linking-cord'), desired_language)
+					else:
+						txt = txt + " when exposed to " + get_name(pb.APIResource('item', details[index].held_item.name), desired_language)
+				else:
+					txt = txt + " when traded"
 			elif details[index].trigger.name == 'use-move':
 				txt = txt + " after using " + get_name(details[index].used_move, desired_language)
 				if details[index].min_move_count:
@@ -154,7 +176,10 @@ def get_evolution_info(species_name):
 				if species.name != 'runerigus':
 					txt = txt + " at " + get_name(details[index].location, desired_language)
 			if details[index].held_item and details[index].trigger.name != 'spin':
-				txt = txt + " while holding " + get_name(details[index].held_item, desired_language)
+				# If it's Hisui and it's a trade evolution, we already printed the name of the
+				# required item earlier, so don't do it here
+				if not (dex.name == 'hisui' and details[index].trigger.name == 'trade'):
+					txt = txt + " while holding " + get_name(details[index].held_item, desired_language)
 			if details[index].relative_physical_stats == 1:
 				txt = txt + " with Attack greater than Defense"
 			elif details[index].relative_physical_stats == 0:
