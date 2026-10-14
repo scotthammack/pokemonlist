@@ -116,7 +116,7 @@
 116: Makuhita
 117: Hariyama: Evolves from Makuhita starting at level 24
 118: Crabrawler
-119: Crabominable: Evolves from Crabrawler when leveled up at Mount Lanakila
+119: Crabominable: Evolves from Crabrawler when exposed to Ice Stone
 120: Salandit
 121: Salazzle: Evolves from Salandit starting at level 33 (female only)
 122: Phanpy
@@ -184,7 +184,7 @@
 184: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
 185: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
 186: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
-187: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
+187: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move
 188: Dunsparce
 189: Dudunsparce: Evolves from Dunsparce when leveled up while knowing Hyper Drill
 190: Deerling

@@ -1,6 +1,6 @@
 001: Slowpoke
-002: Slowbro: Evolves from Slowpoke starting at level 37
-003: Slowking: Evolves from Slowpoke when traded while holding King’s Rock
+002: Slowbro: Evolves from Slowpoke (Galarian Form) when exposed to Galarica Cuff
+003: Slowking: Evolves from Slowpoke (Galarian Form) when exposed to Galarica Wreath
 004: Buneary
 005: Lopunny: Evolves from Buneary when leveled up with friendship 160
 006: Happiny
@@ -104,7 +104,7 @@
 104: Morpeko
 105: Magnemite
 106: Magneton: Evolves from Magnemite starting at level 30
-107: Magnezone: Evolves from Magneton when leveled up at Mt. Coronet
+107: Magnezone: Evolves from Magneton when exposed to Thunder Stone
 108: Inkay
 109: Malamar: Evolves from Inkay starting at level 30 while holding the device upside down
 110: Wishiwashi

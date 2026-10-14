@@ -35,7 +35,7 @@
 035: Gimmighoul
 036: Gholdengo: Evolves from Gimmighoulwhen leveled up while having at least 999 Gimmighoul Coins
 037: Qwilfish
-038: Overqwil: Evolves from Qwilfish (Hisuian Form) after using Barb Barrage in the strong style 20 times
+038: Overqwil: Evolves from Qwilfish (Hisuian Form) after using Barb Barrage 20 times
 039: Treecko
 040: Grovyle: Evolves from Treecko starting at level 16
 041: Sceptile: Evolves from Grovyle starting at level 36

@@ -59,7 +59,7 @@
 059: Graveler: Evolves from Geodude starting at level 25
 060: Golem: Evolves from Graveler when traded
 061: Nosepass
-062: Probopass: Evolves from Nosepass when leveled up at Mt. Coronet
+062: Probopass: Evolves from Nosepass when leveled up at New Mauville
 063: Skitty
 064: Delcatty: Evolves from Skitty when exposed to Moon Stone
 065: Zubat
@@ -83,7 +83,7 @@
 083: Minun
 084: Magnemite
 085: Magneton: Evolves from Magnemite starting at level 30
-086: Magnezone: Evolves from Magneton when leveled up at Mt. Coronet
+086: Magnezone: Evolves from Magneton when leveled up at New Mauville
 087: Voltorb
 088: Electrode: Evolves from Voltorb starting at level 30
 089: Volbeat

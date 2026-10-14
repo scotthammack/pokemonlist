@@ -68,7 +68,7 @@
 068: Rotom
 069: Magnemite
 070: Magneton: Evolves from Magnemite starting at level 30
-071: Magnezone: Evolves from Magneton when leveled up at Mt. Coronet
+071: Magnezone: Evolves from Magneton when leveled up at Route 13
 072: Voltorb
 073: Electrode: Evolves from Voltorb starting at level 30
 074: Trubbish

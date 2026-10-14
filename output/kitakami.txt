@@ -105,7 +105,7 @@
 105: Lombre: Evolves from Lotad starting at level 14
 106: Ludicolo: Evolves from Lombre when exposed to Water Stone
 107: Nosepass
-108: Probopass: Evolves from Nosepass when leveled up at Mt. Coronet
+108: Probopass: Evolves from Nosepass when exposed to Thunder Stone
 109: Shinx
 110: Luxio: Evolves from Shinx starting at level 15
 111: Luxray: Evolves from Luxio starting at level 30

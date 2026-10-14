@@ -1,8 +1,8 @@
 001: Rowlet
 002: Dartrix: Evolves from Rowlet starting at level 17
-003: Decidueye: Evolves from Dartrix starting at level 34
+003: Decidueye: Evolves from Dartrix starting at level 36
 004: Cyndaquil
-005: Quilava: Evolves from Cyndaquil starting at level 14
+005: Quilava: Evolves from Cyndaquil starting at level 17
 006: Typhlosion: Evolves from Quilava starting at level 36
 007: Oshawott
 008: Dewott: Evolves from Oshawott starting at level 17
@@ -30,7 +30,7 @@
 030: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
 031: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
 032: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
-033: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
+033: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move
 034: Zubat
 035: Golbat: Evolves from Zubat starting at level 22
 036: Crobat: Evolves from Golbat when leveled up with friendship 160
@@ -114,7 +114,7 @@
 114: Ursaluna: Evolves from Ursaring when exposed to Peat Block during full moon
 115: Goomy
 116: Sliggoo: Evolves from Goomy starting at level 40
-117: Goodra: Evolves from Sliggoo starting at level 50 in rain
+117: Goodra: Evolves from Sliggoo (Hisuian Form) starting at level 50 in rain
 118: Onix
 119: Steelix: Evolves from Onix when traded while holding Metal Coat
 120: Rhyhorn
@@ -148,7 +148,7 @@
 148: Skorupi
 149: Drapion: Evolves from Skorupi starting at level 40
 150: Growlithe
-151: Arcanine: Evolves from Growlithe when exposed to Fire Stone
+151: Arcanine: Evolves from Growlithe (Hisuian Form) when exposed to Fire Stone
 152: Glameow
 153: Purugly: Evolves from Glameow starting at level 38
 154: Machop
@@ -190,7 +190,7 @@
 190: Nosepass
 191: Probopass: Evolves from Nosepass when leveled up at Mt. Coronet
 192: Voltorb
-193: Electrode: Evolves from Voltorb starting at level 30
+193: Electrode: Evolves from Voltorb (Hisuian Form) when exposed to Leaf Stone
 194: Rotom
 195: Chingling
 196: Chimecho: Evolves from Chingling when leveled up with friendship 220 during night
@@ -217,7 +217,7 @@
 217: Snover
 218: Abomasnow: Evolves from Snover starting at level 40
 219: Zorua
-220: Zoroark: Evolves from Zorua starting at level 30
+220: Zoroark: Evolves from Zorua (Hisuian Form) starting at level 30
 221: Rufflet
 222: Braviary: Evolves from Rufflet starting at level 54
 223: Riolu

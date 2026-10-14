@@ -105,7 +105,7 @@
 105: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
 106: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
 107: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
-108: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
+108: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move
 109: Buneary
 110: Lopunny: Evolves from Buneary when leveled up with friendship 160
 111: Shuppet

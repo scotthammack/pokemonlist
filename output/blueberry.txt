@@ -70,7 +70,7 @@
 070: Zangoose
 071: Seviper
 072: Crabrawler
-073: Crabominable: Evolves from Crabrawler when leveled up at Mount Lanakila
+073: Crabominable: Evolves from Crabrawler when exposed to Ice Stone
 074: Oricorio
 075: Slowpoke
 076: Slowbro: Evolves from Slowpoke starting at level 37
@@ -144,7 +144,7 @@
 144: Dewgong: Evolves from Seel starting at level 34
 145: Lapras
 146: Qwilfish
-147: Overqwil: Evolves from Qwilfish (Hisuian Form) after using Barb Barrage in the strong style 20 times
+147: Overqwil: Evolves from Qwilfish (Hisuian Form) when leveled up while knowing Barb Barrage
 148: Solosis
 149: Duosion: Evolves from Solosis starting at level 32
 150: Reuniclus: Evolves from Duosion starting at level 41

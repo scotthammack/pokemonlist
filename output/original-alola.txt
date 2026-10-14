@@ -13,7 +13,7 @@
 013: Yungoos
 014: Gumshoos: Evolves from Yungoos starting at level 20 during day
 015: Rattata
-016: Raticate: Evolves from Rattata starting at level 20
+016: Raticate: Evolves from Rattata (Alolan Form) starting at level 20 during night
 017: Caterpie
 018: Metapod: Evolves from Caterpie starting at level 7
 019: Butterfree: Evolves from Metapod starting at level 10
@@ -43,12 +43,12 @@
 043: Kadabra: Evolves from Abra starting at level 16
 044: Alakazam: Evolves from Kadabra when traded
 045: Meowth
-046: Persian: Evolves from Meowth starting at level 28
+046: Persian: Evolves from Meowth (Alolan Form) when leveled up with friendship 160
 047: Magnemite
 048: Magneton: Evolves from Magnemite starting at level 30
-049: Magnezone: Evolves from Magneton when leveled up at Mt. Coronet
+049: Magnezone: Evolves from Magneton when leveled up at Blush Mountain
 050: Grimer
-051: Muk: Evolves from Grimer starting at level 38
+051: Muk: Evolves from Grimer (Alolan Form) starting at level 38
 052: Growlithe
 053: Arcanine: Evolves from Growlithe when exposed to Fire Stone
 054: Drowzee
@@ -69,7 +69,7 @@
 069: Golbat: Evolves from Zubat starting at level 22
 070: Crobat: Evolves from Golbat when leveled up with friendship 160
 071: Diglett
-072: Dugtrio: Evolves from Diglett starting at level 26
+072: Dugtrio: Evolves from Diglett (Alolan Form) starting at level 26
 073: Spearow
 074: Fearow: Evolves from Spearow starting at level 20
 075: Rufflet
@@ -126,8 +126,8 @@
 126: Flareon: Evolves from Eevee when exposed to Fire Stone
 127: Espeon: Evolves from Eevee when leveled up with friendship 160 during day
 128: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
-129: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
-130: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
+129: Leafeon: Evolves from Eevee when leveled up at Lush Jungle near a special rock
+130: Glaceon: Evolves from Eevee when leveled up at Mount Lanakila near a special rock
 131: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
 132: Mudbray
 133: Mudsdale: Evolves from Mudbray starting at level 30
@@ -161,7 +161,7 @@
 161: Salandit
 162: Salazzle: Evolves from Salandit starting at level 33 (female only)
 163: Cubone
-164: Marowak: Evolves from Cubone starting at level 28
+164: Marowak: Evolves from Cubone starting at level 28 during night
 165: Kangaskhan
 166: Magby
 167: Magmar: Evolves from Magby starting at level 30
@@ -196,7 +196,7 @@
 196: Phantump
 197: Trevenant: Evolves from Phantump when traded
 198: Nosepass
-199: Probopass: Evolves from Nosepass when leveled up at Mt. Coronet
+199: Probopass: Evolves from Nosepass when leveled up at Blush Mountain
 200: Pyukumuku
 201: Chinchou
 202: Lanturn: Evolves from Chinchou starting at level 27
@@ -227,8 +227,8 @@
 227: Electabuzz: Evolves from Elekid starting at level 30
 228: Electivire: Evolves from Electabuzz when traded while holding Electirizer
 229: Geodude
-230: Graveler: Evolves from Geodude starting at level 25
-231: Golem: Evolves from Graveler when traded
+230: Graveler: Evolves from Geodude (Alolan Form) starting at level 25
+231: Golem: Evolves from Graveler (Alolan Form) when traded
 232: Sandile
 233: Krokorok: Evolves from Sandile starting at level 29
 234: Krookodile: Evolves from Krokorok starting at level 40
@@ -249,9 +249,9 @@
 249: Sneasel
 250: Weavile: Evolves from Sneasel when leveled up while holding Razor Claw during night
 251: Sandshrew
-252: Sandslash: Evolves from Sandshrew starting at level 22
+252: Sandslash: Evolves from Sandshrew (Alolan Form) when exposed to Ice Stone
 253: Vulpix
-254: Ninetales: Evolves from Vulpix when exposed to Fire Stone
+254: Ninetales: Evolves from Vulpix (Alolan Form) when exposed to Ice Stone
 255: Vanillite
 256: Vanillish: Evolves from Vanillite starting at level 35
 257: Vanilluxe: Evolves from Vanillish starting at level 47

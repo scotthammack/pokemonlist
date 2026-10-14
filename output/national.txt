@@ -697,7 +697,7 @@
 0697: Tyrantrum: Evolves from Tyrunt starting at level 39 during day
 0698: Amaura
 0699: Aurorus: Evolves from Amaura starting at level 39 during night
-0700: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
+0700: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move
 0701: Hawlucha
 0702: Dedenne
 0703: Carbink

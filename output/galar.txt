@@ -15,7 +15,7 @@
 015: Butterfree: Evolves from Metapod starting at level 10
 016: Grubbin
 017: Charjabug: Evolves from Grubbin starting at level 20
-018: Vikavolt: Evolves from Charjabug when leveled up at Vast Poni Canyon
+018: Vikavolt: Evolves from Charjabug when exposed to Thunder Stone
 019: Hoothoot
 020: Noctowl: Evolves from Hoothoot starting at level 20
 021: Rookidee
@@ -29,7 +29,7 @@
 029: Nickit
 030: Thievul: Evolves from Nickit starting at level 18
 031: Zigzagoon
-032: Linoone: Evolves from Zigzagoon starting at level 20
+032: Linoone: Evolves from Zigzagoon (Galarian Form) starting at level 20
 033: Obstagoon: Evolves from Linoone (Galarian Form) starting at level 35 during night
 034: Wooloo
 035: Dubwool: Evolves from Wooloo starting at level 24
@@ -199,9 +199,9 @@
 199: Flareon: Evolves from Eevee when exposed to Fire Stone
 200: Espeon: Evolves from Eevee when leveled up with friendship 160 during day
 201: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
-202: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
-203: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
-204: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
+202: Leafeon: Evolves from Eevee when exposed to Leaf Stone
+203: Glaceon: Evolves from Eevee when exposed to Ice Stone
+204: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with friendship 160
 205: Applin
 206: Flapple: Evolves from Applin when exposed to Tart Apple
 207: Appletun: Evolves from Applin when exposed to Sweet Apple
@@ -331,7 +331,7 @@
 331: Doublade: Evolves from Honedge starting at level 35
 332: Aegislash: Evolves from Doublade when exposed to Dusk Stone
 333: Ponyta
-334: Rapidash: Evolves from Ponyta starting at level 40
+334: Rapidash: Evolves from Ponyta (Galarian Form) starting at level 40
 335: Sinistea
 336: Polteageist: Evolves from Sinistea (Phony Form) when exposed to Cracked Pot
 337: Indeedee
@@ -365,7 +365,7 @@
 365: Mr. Mime: Evolves from Mime Jr. when leveled up while knowing Mimic
 366: Mr. Rime: Evolves from Mr. Mime (Galarian Form) starting at level 42
 367: Darumaka
-368: Darmanitan: Evolves from Darumaka starting at level 35
+368: Darmanitan: Evolves from Darumaka (Galarian Form) when exposed to Ice Stone
 369: Stonjourner
 370: Eiscue
 371: Duraludon
