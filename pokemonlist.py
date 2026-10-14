@@ -167,7 +167,8 @@ def get_evolution_info(species_name):
 			if details[index].min_beauty:
 				txt = txt + " with beauty " + str(details[index].min_beauty)
 			if details[index].min_affection:
-				txt = txt + " with affection " + str(details[index].min_affection)
+				if gen_name == 'generation-vi' or gen_name == 'generation-vii':
+					txt = txt + " with affection " + str(details[index].min_affection)
 			if details[index].min_steps:
 				txt = txt + " when leveled up outside of a ball after walking " + str(details[index].min_steps) + " steps"
 			if details[index].turn_upside_down:
