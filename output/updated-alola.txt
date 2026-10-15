@@ -156,8 +156,8 @@
 156: Flareon: Evolves from Eevee when exposed to Fire Stone
 157: Espeon: Evolves from Eevee when leveled up with friendship 220 during day
 158: Umbreon: Evolves from Eevee when leveled up with friendship 220 during night
-159: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
-160: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
+159: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a Moss Rock
+160: Glaceon: Evolves from Eevee when leveled up at Route 217 near an Ice Rock
 161: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
 162: Mareep
 163: Flaaffy: Evolves from Mareep starting at level 15

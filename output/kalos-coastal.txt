@@ -80,8 +80,8 @@
 080: Flareon: Evolves from Eevee when exposed to Fire Stone
 081: Espeon: Evolves from Eevee when leveled up with friendship 220 during day
 082: Umbreon: Evolves from Eevee when leveled up with friendship 220 during night
-083: Leafeon: Evolves from Eevee when leveled up at Route 20 near a special rock
-084: Glaceon: Evolves from Eevee when leveled up at Frost Cavern near a special rock
+083: Leafeon: Evolves from Eevee when leveled up at Route 20 near a Moss Rock
+084: Glaceon: Evolves from Eevee when leveled up at Frost Cavern near an Ice Rock
 085: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
 086: Emolga
 087: Yanma

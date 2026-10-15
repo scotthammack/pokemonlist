@@ -95,8 +95,8 @@
 094: Flareon: Evolves from Eevee when exposed to Fire Stone
 095: Espeon: Evolves from Eevee when leveled up with friendship 220 during day
 096: Umbreon: Evolves from Eevee when leveled up with friendship 220 during night
-097: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
-098: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
+097: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a Moss Rock
+098: Glaceon: Evolves from Eevee when leveled up at Route 217 near an Ice Rock
 099: Sandile
 100: Krokorok: Evolves from Sandile starting at level 29
 101: Krookodile: Evolves from Krokorok starting at level 40

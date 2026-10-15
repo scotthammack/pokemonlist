@@ -64,14 +64,17 @@ command line parameters too. I dunno. For now, they're not, so just edit the scr
 
 Known issues
 ------------
-* Pokemon that can evolve using multiple methods (ex: Probopass from Legends: Arceus onwards) only show the first
-  method found.
+* Pokemon that can evolve using multiple methods within the same game (ex: Probopass from Legends: Arceus
+  onwards) only show the first method found.
 * Pokemon that have different evolution triggers in different games may not show the correct trigger for the
   game you would expect. I am attempting to pick the most appropriate game for the specified Pokedex, but this
-  is not entirely reliable. It seems like there are some gaps in PokeAPI's data... I'm looking into what to do
-  about this.
+  is not entirely reliable if the requested game is not from the version group in which that particular evolution
+  was introduced. I'm looking into what to do about this.
 * Pokemon that evolve in a specific location may show a location from a different game than expected, for similar
   reasons.
+* The names "Moss Rock" and "Ice Rock" (part of the evolution requirements for Leafeon and Glaceon in some games)
+  are hard-coded instead of getting the desired language from PokeAPI. This is because they're not considered items
+  or locations or any other category that's in the database as far as I can tell.
 * The evolution data for Alcremie does not go into detail on the different types of Sweets that may be held, or
   the different directions or time you can spin. I don't plan on adding this; knowing that you get an Alcremie is
   enough as far as I'm concerned. Also, the name of "Sweets" is not localized into the desired language, due to

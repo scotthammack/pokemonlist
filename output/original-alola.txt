@@ -126,8 +126,8 @@
 126: Flareon: Evolves from Eevee when exposed to Fire Stone
 127: Espeon: Evolves from Eevee when leveled up with friendship 220 during day
 128: Umbreon: Evolves from Eevee when leveled up with friendship 220 during night
-129: Leafeon: Evolves from Eevee when leveled up at Lush Jungle near a special rock
-130: Glaceon: Evolves from Eevee when leveled up at Mount Lanakila near a special rock
+129: Leafeon: Evolves from Eevee when leveled up at Lush Jungle near a Moss Rock
+130: Glaceon: Evolves from Eevee when leveled up at Mount Lanakila near an Ice Rock
 131: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move with affection 2
 132: Mudbray
 133: Mudsdale: Evolves from Mudbray starting at level 30

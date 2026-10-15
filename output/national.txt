@@ -467,8 +467,8 @@
 0467: Magmortar: Evolves from Magmar when traded while holding Magmarizer
 0468: Togekiss: Evolves from Togetic when exposed to Shiny Stone
 0469: Yanmega: Evolves from Yanma when leveled up while knowing Ancient Power
-0470: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
-0471: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
+0470: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a Moss Rock
+0471: Glaceon: Evolves from Eevee when leveled up at Route 217 near an Ice Rock
 0472: Gliscor: Evolves from Gligar when leveled up while holding Razor Fang during night
 0473: Mamoswine: Evolves from Piloswine when leveled up while knowing Ancient Power
 0474: Porygon-Z: Evolves from Porygon2 when traded while holding Dubious Disc

@@ -28,8 +28,8 @@
 028: Flareon: Evolves from Eevee when exposed to Fire Stone
 029: Espeon: Evolves from Eevee when leveled up with friendship 160 during day
 030: Umbreon: Evolves from Eevee when leveled up with friendship 160 during night
-031: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a special rock
-032: Glaceon: Evolves from Eevee when leveled up at Route 217 near a special rock
+031: Leafeon: Evolves from Eevee when leveled up at Eterna Forest near a Moss Rock
+032: Glaceon: Evolves from Eevee when leveled up at Route 217 near an Ice Rock
 033: Sylveon: Evolves from Eevee when leveled up while knowing a Fairy-type move
 034: Zubat
 035: Golbat: Evolves from Zubat starting at level 22

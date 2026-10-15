@@ -213,7 +213,13 @@ def get_evolution_info(species_name):
 			if details[index].turn_upside_down:
 				txt = txt + " while holding the device upside down"
 			if details[index].near_special_rock:
-				txt = txt + " near a special rock"
+				txt = txt + " near "
+				if species.name == 'leafeon':
+					txt = txt + "a Moss Rock"
+				elif species.name == 'glaceon':
+					txt = txt + "an Ice Rock"
+				else:	# should never happen but just in case
+					txt = txt + "a special rock"
 			if details[index].needs_overworld_rain:
 				txt = txt + " in rain"
 			if details[index].time_of_day and details[index].time_of_day != "" and details[index].trigger.name != 'spin':
