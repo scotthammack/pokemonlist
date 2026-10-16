@@ -16,6 +16,12 @@ gen = None
 
 # There's gotta be a better way of doing this but I can't think of it right now.
 ignore_forms_list = ['burmy', 'shellos', 'deerling', 'flabebe', 'floette', 'pumpkaboo']
+#remake_map = {
+#	'firered-leafgreen': 'red-blue',
+#	'heartgold-soulsilver': 'gold-silver',
+#	'omega-ruby-alpha-sapphire': 'ruby-sapphire',
+#	'brilliant-diamond-shining-pearl': 'diamond-pearl'
+#}
 
 if len(sys.argv) > 1:
 	desired_dex = sys.argv[1]
@@ -87,12 +93,12 @@ def dex_get_gen(dex):
 #	return closest_group
 
 def find_best_details_index(details):
-	for x in range(0, len(details)):
+	for index, evolution in enumerate(details):
 		for vg in dex.version_groups:
-			debug_print("Checking " + details[x].version_group.name + " against " + vg.name)
-			if details[x].version_group.name == vg.name:
-				return x
-	debug_print("No matching details found. Using default group")
+			debug_print("Checking " + evolution.version_group.name + " against " + vg.name)
+			if evolution.version_group.name == vg.name:
+				return index
+	debug_print("No matching details found. Using default evolution")
 	return 0
 
 def get_evolution_info(species_name):
