@@ -111,44 +111,44 @@ def get_evolution_info(species_name):
 		if chain and chain.evolution_details:
 			evolution = chain.evolution_details[find_best_details_index(chain.evolution_details)]
 		if evolution and pokemon_exists_in_dex(species.evolves_from_species.name):
-			txt = txt + ": Evolves from " + get_name(species.evolves_from_species)
+			txt = txt + ": Evolves from {}".format(get_name(species.evolves_from_species))
 			if evolution.required_pokemon_form and not species.evolves_from_species.name in ignore_forms_list:
 				form_name = get_form_name(evolution.required_pokemon_form)
 				if form_name != "":
-					txt = txt + " (" + form_name + ")"
+					txt = txt + " ({})".format(form_name)
 			if evolution.trigger.name == 'level-up':
 				if evolution.min_level:
-					txt = txt + " starting at level " + str(evolution.min_level)
+					txt = txt + " starting at level {}".format(evolution.min_level)
 				else:
 					txt = txt + " when leveled up"
 			elif evolution.trigger.name == 'in-battle-level-up':
-				txt = txt + " when leveled up in battle starting at level " + str(evolution.min_level)
+				txt = txt + " when leveled up in battle starting at level {}".format(evolution.min_level)
 			elif evolution.trigger.name == 'use-item':
-				txt = txt + " when exposed to " + get_name(evolution.item)
+				txt = txt + " when exposed to {}".format(get_name(evolution.item))
 			elif evolution.trigger.name == 'trade':
 				# In Legends Arceus, evolutions that are normally trade evolutions are done using
 				# either the item the Pokemon would normally need to hold during the trade, or if
 				# none, a Linking Cord. PokeAPI does not treat these as a separate evolution
 				# trigger, so we have to do it ourselves.
-				if dex.region.name == 'hisui':
+				if dex.region and dex.region.name == 'hisui':
 					if not evolution.held_item:
-						txt = txt + " when exposed to " + get_name(pb.APIResource('item', 'linking-cord'))
+						txt = txt + " when exposed to {}".format(get_name(pb.APIResource('item', 'linking-cord')))
 					else:
-						txt = txt + " when exposed to " + get_name(pb.APIResource('item', evolution.held_item.name))
+						txt = txt + " when exposed to {}".format(get_name(pb.APIResource('item', evolution.held_item.name)))
 				else:
 					txt = txt + " when traded"
 			elif evolution.trigger.name == 'use-move':
-				txt = txt + " after using " + get_name(evolution.used_move)
+				txt = txt + " after using ".format(get_name(evolution.used_move))
 				if evolution.min_move_count:
-					txt = txt + " " + str(evolution.min_move_count) + " times"
+					txt = txt + " {} times".format(evolution.min_move_count)
 			elif evolution.trigger.name == 'three-defeated-bisharp':
-				txt = txt + " after defeating 3 " + get_name(pb.APIResource('pokemon-species', 'bisharp')) + " that hold a " + get_name(pb.APIResource('item', 'leaders-crest'))
+				txt = txt + " after defeating 3 {} that hold a {}".format(get_name(pb.APIResource('pokemon-species', 'bisharp')), get_name(pb.APIResource('item', 'leaders-crest')))
 			elif evolution.trigger.name == 'gimmighoul-coins':
-				txt = txt + "when leveled up while having at least 999 " + get_name(pb.APIResource('item', 'gimmighoul-coin')) + "s"
+				txt = txt + "when leveled up while having at least 999 {}s".format(get_name(pb.APIResource('item', 'gimmighoul-coin')))
 			elif evolution.trigger.name == 'shed':
 				txt = txt + " starting at level 20 with an empty slot in the party"
 				if dex.name != 'hoenn':
-					txt = txt + " and at least 1 " + get_name(pb.APIResource('item', 'poke-ball')) + " in the bag"
+					txt = txt + " and at least 1 {} in the bag".format(get_name(pb.APIResource('item', 'poke-ball')))
 			elif evolution.trigger.name == 'spin':
 				txt = txt + " by spinning around while holding a Sweet"
 			elif evolution.trigger.name == 'three-critical-hits':
@@ -158,37 +158,37 @@ def get_evolution_info(species_name):
 					txt = txt + " while standing under an arch"
 					# workaround for an omisssion in PokeAPI data. Hopefully remove this
 					# when/if that gets fixed
-					if dex.region.name == 'kalos':
+					if dex.region and dex.region.name == 'kalos':
 						txt = txt + " at Coulant Waterway"
 					elif evolution.location:
-						txt = txt + " at " + get_name(evolution.location)
-				txt = txt + " after taking " + str(evolution.min_damage_taken) + " points of damage without fainting"
+						txt = txt + " at {}".format(get_name(evolution.location))
+				txt = txt + " after taking {} points of damage without fainting".format(evolution.min_damage_taken)
 			elif evolution.trigger.name == 'recoil-damage':
-				txt = txt + " after taking " + str(evolution.min_damage_taken) + " points of recoil damage without fainting"
+				txt = txt + " after taking {} points of recoil damage without fainting".format(evolution.min_damage_taken)
 			elif evolution.trigger.name == 'agile-style-move':
-				txt = txt + " after using " + get_name(evolution.used_move) + " in the agile style"
+				txt = txt + " after using {} in the agile style".format(get_name(evolution.used_move))
 				if evolution.min_move_count:
-					txt = txt + " " + str(evolution.min_move_count) + " times"
+					txt = txt + " {} times".format(evolution.min_move_count)
 			elif evolution.trigger.name == 'strong-style-move':
-				txt = txt + " after using " + get_name(evolution.used_move) + " in the strong style"
+				txt = txt + " after using {} in the strong style".format(get_name(evolution.used_move))
 				if evolution.min_move_count:
-					txt = txt + " " + str(evolution.min_move_count) + " times"
+					txt = txt + " {} times".format(evolution.min_move_count)
 			elif evolution.trigger.name == 'meltan-candies':
-				txt = txt + " after using 400 " + get_name(pb.APIResource('item', 'meltan-candy')) + " (only in Pokemon Go)"
+				txt = txt + " after using 400 {} (only in Pokemon Go)".format(get_name(pb.APIResource('item', 'meltan-candy')))
 			elif evolution.trigger.name == 'tower-of-darkness' or evolution.trigger.name == 'tower-of-waters':
-				txt = txt + " when evolved at " + get_name(pb.APIResource('location', 'tower-of-darkness')) + " or " + get_name(pb.APIResource('location', 'tower-of-waters'))
+				txt = txt + " when evolved at {} or {}".format(get_name(pb.APIResource('location', 'tower-of-darkness')), get_name(pb.APIResource('location', 'tower-of-waters')))
 			else:
 				txt = txt + " by doing something weird"
 			if evolution.location:
 				# in the case of Runerigus, we already printed the name of the location (to make
 				# the sentence less awkward), so don't print it again
 				if species.name != 'runerigus':
-					txt = txt + " at " + get_name(evolution.location)
+					txt = txt + " at {}".format(get_name(evolution.location))
 			if evolution.held_item and evolution.trigger.name != 'spin':
 				# If it's Hisui and it's a trade evolution, we already printed the name of the
 				# required item earlier, so don't do it here
-				if not (dex.region.name == 'hisui' and evolution.trigger.name == 'trade'):
-					txt = txt + " while holding " + get_name(evolution.held_item)
+				if not ((dex.region and dex.region.name == 'hisui') and evolution.trigger.name == 'trade'):
+					txt = txt + " while holding {}".format(get_name(evolution.held_item))
 			if evolution.relative_physical_stats == 1:
 				txt = txt + " with Attack greater than Defense"
 			elif evolution.relative_physical_stats == 0:
@@ -196,11 +196,11 @@ def get_evolution_info(species_name):
 			elif evolution.relative_physical_stats == -1:
 				txt = txt + " with Defense greater than Attack"
 			if evolution.known_move:
-				txt = txt + " while knowing " + get_name(evolution.known_move)
+				txt = txt + " while knowing {}".format(get_name(evolution.known_move))
 			if evolution.known_move_type:
-				txt = txt + " while knowing a " + get_name(evolution.known_move_type) + "-type move"
+				txt = txt + " while knowing a {}-type move".format(get_name(evolution.known_move_type))
 			if evolution.party_type:
-				txt = txt + " with a " + get_name(evolution.party_type) + "-type Pokemon in the party"
+				txt = txt + " with a {}-type Pokemon in the party".format(get_name(evolution.party_type))
 			if evolution.min_happiness:
 				# PokeAPI's data does not seem to account for the minimum friendship value
 				# changing globally in gen 8, so some Pokemon have a value of 160 and others
@@ -211,14 +211,14 @@ def get_evolution_info(species_name):
 					min_happiness = 160
 				else:
 					min_happiness = 220
-				txt = txt + " with friendship " + str(min_happiness)
+				txt = txt + " with friendship {}".format(min_happiness)
 			if evolution.min_beauty:
-				txt = txt + " with beauty " + str(evolution.min_beauty)
+				txt = txt + " with beauty {}".format(evolution.min_beauty)
 			if evolution.min_affection:
 				if gen and (gen.id == 6 or gen.id == 7):
-					txt = txt + " with affection " + str(evolution.min_affection)
+					txt = txt + " with affection {}".format(evolution.min_affection)
 			if evolution.min_steps:
-				txt = txt + " when leveled up outside of a ball after walking " + str(evolution.min_steps) + " steps"
+				txt = txt + " when leveled up outside of a ball after walking {} steps".format(evolution.min_steps)
 			if evolution.turn_upside_down:
 				txt = txt + " while holding the device upside down"
 			if evolution.near_special_rock:
