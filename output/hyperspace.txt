@@ -58,7 +58,7 @@
 058: Sawk
 059: Yamask
 060: Cofagrigus: Evolves from Yamask starting at level 34
-061: Runerigus: Evolves from Yamask (Galarian Form) while standing under an arch at Dusty Bowl after taking 49 points of damage without fainting
+061: Runerigus: Evolves from Yamask (Galarian Form) while standing under an arch at Coulant Waterway after taking 49 points of damage without fainting
 062: Wimpod
 063: Golisopod: Evolves from Wimpod starting at level 30
 064: Nickit
