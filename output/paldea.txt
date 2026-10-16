@@ -389,7 +389,7 @@
 389: Arctibax: Evolves from Frigibax starting at level 35
 390: Baxcalibur: Evolves from Arctibax starting at level 54
 391: Gimmighoul
-392: Gholdengo: Evolves from Gimmighoulwhen leveled up while having at least 999 Gimmighoul Coins
+392: Gholdengo: Evolves from Gimmighoul when leveled up while having at least 999 Gimmighoul Coins
 393: Wo-Chien
 394: Chien-Pao
 395: Ting-Lu
