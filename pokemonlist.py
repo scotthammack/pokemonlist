@@ -130,7 +130,7 @@ def get_evolution_info(species_name):
 				# either the item the Pokemon would normally need to hold during the trade, or if
 				# none, a Linking Cord. PokeAPI does not treat these as a separate evolution
 				# trigger, so we have to do it ourselves.
-				if dex.name == 'hisui':
+				if dex.region.name == 'hisui':
 					if not evolution.held_item:
 						txt = txt + " when exposed to " + get_name(pb.APIResource('item', 'linking-cord'))
 					else:
@@ -156,7 +156,11 @@ def get_evolution_info(species_name):
 			elif evolution.trigger.name == 'take-damage':
 				if species.name == 'runerigus':
 					txt = txt + " while standing under an arch"
-					if evolution.location:
+					# workaround for an omisssion in PokeAPI data. Hopefully remove this
+					# when/if that gets fixed
+					if dex.region.name == 'kalos':
+						txt = txt + " at Coulant Waterway"
+					elif evolution.location:
 						txt = txt + " at " + get_name(evolution.location)
 				txt = txt + " after taking " + str(evolution.min_damage_taken) + " points of damage without fainting"
 			elif evolution.trigger.name == 'recoil-damage':
@@ -183,7 +187,7 @@ def get_evolution_info(species_name):
 			if evolution.held_item and evolution.trigger.name != 'spin':
 				# If it's Hisui and it's a trade evolution, we already printed the name of the
 				# required item earlier, so don't do it here
-				if not (dex.name == 'hisui' and evolution.trigger.name == 'trade'):
+				if not (dex.region.name == 'hisui' and evolution.trigger.name == 'trade'):
 					txt = txt + " while holding " + get_name(evolution.held_item)
 			if evolution.relative_physical_stats == 1:
 				txt = txt + " with Attack greater than Defense"
