@@ -997,7 +997,7 @@
 0997: Arctibax: Evolves from Frigibax starting at level 35
 0998: Baxcalibur: Evolves from Arctibax starting at level 54
 0999: Gimmighoul
-1000: Gholdengo: Evolves from Gimmighoulwhen leveled up while having at least 999 Gimmighoul Coins
+1000: Gholdengo: Evolves from Gimmighoul when leveled up while having at least 999 Gimmighoul Coins
 1001: Wo-Chien
 1002: Chien-Pao
 1003: Ting-Lu

@@ -138,13 +138,13 @@ def get_evolution_info(species_name):
 				else:
 					txt = txt + " when traded"
 			elif evolution.trigger.name == 'use-move':
-				txt = txt + " after using ".format(get_name(evolution.used_move))
+				txt = txt + " after using {}".format(get_name(evolution.used_move))
 				if evolution.min_move_count:
 					txt = txt + " {} times".format(evolution.min_move_count)
 			elif evolution.trigger.name == 'three-defeated-bisharp':
 				txt = txt + " after defeating 3 {} that hold a {}".format(get_name(pb.APIResource('pokemon-species', 'bisharp')), get_name(pb.APIResource('item', 'leaders-crest')))
 			elif evolution.trigger.name == 'gimmighoul-coins':
-				txt = txt + "when leveled up while having at least 999 {}s".format(get_name(pb.APIResource('item', 'gimmighoul-coin')))
+				txt = txt + " when leveled up while having at least 999 {}s".format(get_name(pb.APIResource('item', 'gimmighoul-coin')))
 			elif evolution.trigger.name == 'shed':
 				txt = txt + " starting at level 20 with an empty slot in the party"
 				if dex.name != 'hoenn':
