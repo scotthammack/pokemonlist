@@ -46,13 +46,13 @@ def debug_print(txt):
 	if print_debug_messages:
 		print(txt)
 
-def get_name(thing, language):
+def get_name(thing):
 	for localized_name in thing.names:
 		if localized_name.language.name == desired_language:
 			return localized_name.name
 	return thing.name
 
-def get_form_name(form, language):
+def get_form_name(form):
 	for localized_name in form.form_names:
 		if localized_name.language.name == desired_language:
 			return localized_name.name
@@ -111,9 +111,9 @@ def get_evolution_info(species_name):
 		if chain and chain.evolution_details:
 			evolution = chain.evolution_details[find_best_details_index(chain.evolution_details)]
 		if evolution and pokemon_exists_in_dex(species.evolves_from_species.name):
-			txt = txt + ": Evolves from " + get_name(species.evolves_from_species, desired_language)
+			txt = txt + ": Evolves from " + get_name(species.evolves_from_species)
 			if evolution.required_pokemon_form and not species.evolves_from_species.name in ignore_forms_list:
-				form_name = get_form_name(evolution.required_pokemon_form, desired_language)
+				form_name = get_form_name(evolution.required_pokemon_form)
 				if form_name != "":
 					txt = txt + " (" + form_name + ")"
 			if evolution.trigger.name == 'level-up':
@@ -124,7 +124,7 @@ def get_evolution_info(species_name):
 			elif evolution.trigger.name == 'in-battle-level-up':
 				txt = txt + " when leveled up in battle starting at level " + str(evolution.min_level)
 			elif evolution.trigger.name == 'use-item':
-				txt = txt + " when exposed to " + get_name(evolution.item, desired_language)
+				txt = txt + " when exposed to " + get_name(evolution.item)
 			elif evolution.trigger.name == 'trade':
 				# In Legends Arceus, evolutions that are normally trade evolutions are done using
 				# either the item the Pokemon would normally need to hold during the trade, or if
@@ -132,23 +132,23 @@ def get_evolution_info(species_name):
 				# trigger, so we have to do it ourselves.
 				if dex.name == 'hisui':
 					if not evolution.held_item:
-						txt = txt + " when exposed to " + get_name(pb.APIResource('item', 'linking-cord'), desired_language)
+						txt = txt + " when exposed to " + get_name(pb.APIResource('item', 'linking-cord'))
 					else:
-						txt = txt + " when exposed to " + get_name(pb.APIResource('item', evolution.held_item.name), desired_language)
+						txt = txt + " when exposed to " + get_name(pb.APIResource('item', evolution.held_item.name))
 				else:
 					txt = txt + " when traded"
 			elif evolution.trigger.name == 'use-move':
-				txt = txt + " after using " + get_name(evolution.used_move, desired_language)
+				txt = txt + " after using " + get_name(evolution.used_move)
 				if evolution.min_move_count:
 					txt = txt + " " + str(evolution.min_move_count) + " times"
 			elif evolution.trigger.name == 'three-defeated-bisharp':
-				txt = txt + " after defeating 3 " + get_name(pb.APIResource('pokemon-species', 'bisharp'), desired_language) + " that hold a " + get_name(pb.APIResource('item', 'leaders-crest'), desired_language)
+				txt = txt + " after defeating 3 " + get_name(pb.APIResource('pokemon-species', 'bisharp')) + " that hold a " + get_name(pb.APIResource('item', 'leaders-crest'))
 			elif evolution.trigger.name == 'gimmighoul-coins':
-				txt = txt + "when leveled up while having at least 999 " + get_name(pb.APIResource('item', 'gimmighoul-coin'), desired_language) + "s"
+				txt = txt + "when leveled up while having at least 999 " + get_name(pb.APIResource('item', 'gimmighoul-coin')) + "s"
 			elif evolution.trigger.name == 'shed':
 				txt = txt + " starting at level 20 with an empty slot in the party"
 				if dex.name != 'hoenn':
-					txt = txt + " and at least 1 " + get_name(pb.APIResource('item', 'poke-ball'), desired_language) + " in the bag"
+					txt = txt + " and at least 1 " + get_name(pb.APIResource('item', 'poke-ball')) + " in the bag"
 			elif evolution.trigger.name == 'spin':
 				txt = txt + " by spinning around while holding a Sweet"
 			elif evolution.trigger.name == 'three-critical-hits':
@@ -157,34 +157,34 @@ def get_evolution_info(species_name):
 				if species.name == 'runerigus':
 					txt = txt + " while standing under an arch"
 					if evolution.location:
-						txt = txt + " at " + get_name(evolution.location, desired_language)
+						txt = txt + " at " + get_name(evolution.location)
 				txt = txt + " after taking " + str(evolution.min_damage_taken) + " points of damage without fainting"
 			elif evolution.trigger.name == 'recoil-damage':
 				txt = txt + " after taking " + str(evolution.min_damage_taken) + " points of recoil damage without fainting"
 			elif evolution.trigger.name == 'agile-style-move':
-				txt = txt + " after using " + get_name(evolution.used_move, desired_language) + " in the agile style"
+				txt = txt + " after using " + get_name(evolution.used_move) + " in the agile style"
 				if evolution.min_move_count:
 					txt = txt + " " + str(evolution.min_move_count) + " times"
 			elif evolution.trigger.name == 'strong-style-move':
-				txt = txt + " after using " + get_name(evolution.used_move, desired_language) + " in the strong style"
+				txt = txt + " after using " + get_name(evolution.used_move) + " in the strong style"
 				if evolution.min_move_count:
 					txt = txt + " " + str(evolution.min_move_count) + " times"
 			elif evolution.trigger.name == 'meltan-candies':
-				txt = txt + " after using 400 " + get_name(pb.APIResource('item', 'meltan-candy'), desired_language) + " (only in Pokemon Go)"
+				txt = txt + " after using 400 " + get_name(pb.APIResource('item', 'meltan-candy')) + " (only in Pokemon Go)"
 			elif evolution.trigger.name == 'tower-of-darkness' or evolution.trigger.name == 'tower-of-waters':
-				txt = txt + " when evolved at " + get_name(pb.APIResource('location', 'tower-of-darkness'), desired_language) + " or " + get_name(pb.APIResource('location', 'tower-of-waters'), desired_language)
+				txt = txt + " when evolved at " + get_name(pb.APIResource('location', 'tower-of-darkness')) + " or " + get_name(pb.APIResource('location', 'tower-of-waters'))
 			else:
 				txt = txt + " by doing something weird"
 			if evolution.location:
 				# in the case of Runerigus, we already printed the name of the location (to make
 				# the sentence less awkward), so don't print it again
 				if species.name != 'runerigus':
-					txt = txt + " at " + get_name(evolution.location, desired_language)
+					txt = txt + " at " + get_name(evolution.location)
 			if evolution.held_item and evolution.trigger.name != 'spin':
 				# If it's Hisui and it's a trade evolution, we already printed the name of the
 				# required item earlier, so don't do it here
 				if not (dex.name == 'hisui' and evolution.trigger.name == 'trade'):
-					txt = txt + " while holding " + get_name(evolution.held_item, desired_language)
+					txt = txt + " while holding " + get_name(evolution.held_item)
 			if evolution.relative_physical_stats == 1:
 				txt = txt + " with Attack greater than Defense"
 			elif evolution.relative_physical_stats == 0:
@@ -192,11 +192,11 @@ def get_evolution_info(species_name):
 			elif evolution.relative_physical_stats == -1:
 				txt = txt + " with Defense greater than Attack"
 			if evolution.known_move:
-				txt = txt + " while knowing " + get_name(evolution.known_move, desired_language)
+				txt = txt + " while knowing " + get_name(evolution.known_move)
 			if evolution.known_move_type:
-				txt = txt + " while knowing a " + get_name(evolution.known_move_type, desired_language) + "-type move"
+				txt = txt + " while knowing a " + get_name(evolution.known_move_type) + "-type move"
 			if evolution.party_type:
-				txt = txt + " with a " + get_name(evolution.party_type, desired_language) + "-type Pokemon in the party"
+				txt = txt + " with a " + get_name(evolution.party_type) + "-type Pokemon in the party"
 			if evolution.min_happiness:
 				# PokeAPI's data does not seem to account for the minimum friendship value
 				# changing globally in gen 8, so some Pokemon have a value of 160 and others
@@ -246,7 +246,7 @@ gen = dex_get_gen(dex)
 
 for entry in dex.pokemon_entries:
 	species = entry.pokemon_species
-	txt = get_name(species, desired_language)
+	txt = get_name(species)
 	if include_number:
 		txt = "{}: {}".format(str(entry.entry_number).zfill(padding_digits), txt)
 	if include_evolution_info:
